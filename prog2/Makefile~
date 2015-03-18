@@ -1,0 +1,17 @@
+test.out: main.o Lista.o Stos.o Kolejka.o funkcje.o
+	g++ main.o Lista.o Stos.o Kolejka.o funkcje.o
+
+main.o: main.cpp Lista.h Stos.h Kolejka.h
+	g++ -c main.cpp
+
+Lista.o: Lista.h Lista.cpp
+	g++ -c Lista.cpp
+
+Kolejka.o: Kolejka.h Kolejka.cpp
+	g++ -c Kolejka.cpp
+
+Stos.o: Stos.h Stos.cpp
+	g++ -c Stos.cpp
+
+funkcje.o: funkcje.cpp
+	g++ -c funkcje.cpp

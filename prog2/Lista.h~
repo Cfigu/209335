@@ -1,0 +1,38 @@
+#ifndef LISTA_H
+#define LISTA_H
+
+#include <iostream>
+#include <string>
+
+/*!
+*\file
+*\brief Plik naglowkowy Lista.h
+*
+*Zawiera definicje struktury Elista oraz definicje klasy Lista
+*/
+
+struct Elista                  
+{
+    Elista *next, *poprz;       
+    int wartosc;                
+};
+
+class Lista
+{
+private:
+    Elista *poczatek, *koniec;      // wskazniki na poczatek i koniec listy
+    unsigned dlg;               // dlugosc listy
+
+public:
+    Lista();                    // konstruktor
+    ~Lista();                   // destruktor
+    void wyswietl_l();            // wyswietlenie listy
+    void push_front(int v);     // dodanie elementu na poczatku listy
+    void push_back(int v);      // dodanie elementu na koncu listy
+    void usun(Elista *e);    // usuniecie wskazanego elementu
+    void pop_front();           // usuniecie elementu z poczatku listy
+    void pop_back();            // usuniecie elementu z konca listy
+
+};
+
+#endif // LISTA_H
