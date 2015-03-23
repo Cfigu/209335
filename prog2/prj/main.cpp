@@ -38,8 +38,7 @@ int main() {
   cout << "3.Stos" << endl;
   cout << "0.Zakoncz program" << endl;
   cin >> opcja;
-  cout << "Podaj rozmiar struktury: " << endl;
-  cin >> roz;
+ 
   
   switch(opcja)
     {
@@ -49,23 +48,26 @@ int main() {
       
     case 1:
      
-      for(int j=0; j<10; j++)
+      cout << "Podaj rozmiar struktury: " << endl;
+      cin >> roz;
+
+      for(int j=0; j<10; j++)   
 	{
 
-	  czas1=clock();
+	  czas1=clock();             //czas poczatkowy
 
-	  for(int i=0; i<roz; i++)
+	  for(int i=0; i<roz; i++)   //petla wypelniajaca strukture
 	    {
 	      A.push_front(i);
 	    }
 	  
-	  czas2=clock();
+	  czas2=clock();             //czas koncowy
 	 
 
-	  czas[j]=czas2-czas1;
+	  czas[j]=czas2-czas1;       //roznica czasu koncowego i poczatkowego, czyli czas obliczen
 	  
 
-	   for(int i=0; i<roz; i++)
+	  for(int i=0; i<roz; i++)   //petla czyszczaca strkture
 	    {
 	      A.pop_front();
 	      }
@@ -81,22 +83,24 @@ int main() {
        
     case 2:
       
-      
+      cout << "Podaj rozmiar struktury: " << endl;
+      cin >> roz;
+
       for(int j=0; j<10; j++)
 	{
 
-	  czas1=clock();
+	  czas1=clock();             //czas poczatkowy
 
-	  for(int i=0; i<roz; i++)
+	  for(int i=0; i<roz; i++)   //petla wypelniajaca strukture
 	    {
 	      K.push_k(i);
 	    }
 	  
-	  czas2=clock();
+	  czas2=clock();             //czas koncowy
 	  
-	  czas[j]=czas2-czas1;
+	  czas[j]=czas2-czas1;        //roznica czasu koncowego i poczatkowego, czyli czas obliczen
 
-	   for(int i=0; i<roz; i++)
+	   for(int i=0; i<roz; i++)   //petla czyszczaca strkture
 	    {
 	      K.pop_k();
 	    }
@@ -111,22 +115,24 @@ int main() {
   
     case 3:
 
+      cout << "Podaj rozmiar struktury: " << endl;
+      cin >> roz;
  
       for(int j=0; j<10; j++)
 	{
 
-	  czas1=clock();
+	  czas1=clock();             //czas poczatkowy
 
-	  for(int i=0; i<roz; i++)
+	  for(int i=0; i<roz; i++)   //petla wypelniajaca strukture
 	    {
 	      S.push_s(i);
 	    }
 	  
-	  czas2=clock();
+	  czas2=clock();             //czas koncowy
 	  
-	  czas[j]=czas2-czas1;
+	  czas[j]=czas2-czas1;       //roznica czasu koncowego i poczatkowego, czyli czas obliczen
 
-	   for(int i=0; i<roz; i++)
+	   for(int i=0; i<roz; i++)   //petla czyszczaca strkture
 	    {
 	      S.pop_s();
 	    }
