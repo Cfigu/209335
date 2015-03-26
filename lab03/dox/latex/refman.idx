@@ -1,0 +1,104 @@
+\indexentry{arr@{arr}|hyperpage}{5}
+\indexentry{ls@{ls}|hyperpage}{5}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{5}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!pop@{pop}|hyperpage}{6}
+\indexentry{pop@{pop}!ls::Kolejka@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{6}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{6}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!Kolejka@{Kolejka}|hyperpage}{7}
+\indexentry{Kolejka@{Kolejka}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{7}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!Kolejka@{Kolejka}|hyperpage}{7}
+\indexentry{Kolejka@{Kolejka}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{7}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!$\sim $\discretionary {-}{}{}Kolejka@{$\sim $\discretionary {-}{}{}Kolejka}|hyperpage}{7}
+\indexentry{$\sim $\discretionary {-}{}{}Kolejka@{$\sim $\discretionary {-}{}{}Kolejka}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{7}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!empty@{empty}|hyperpage}{7}
+\indexentry{empty@{empty}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{7}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!pop@{pop}|hyperpage}{7}
+\indexentry{pop@{pop}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{7}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!push@{push}|hyperpage}{7}
+\indexentry{push@{push}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{7}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1}|hyperpage}{7}
+\indexentry{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{7}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2}|hyperpage}{7}
+\indexentry{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{7}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!size@{size}|hyperpage}{7}
+\indexentry{size@{size}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{7}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}kol@{pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}kol}|hyperpage}{8}
+\indexentry{pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}kol@{pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}kol}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{8}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}kol@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}kol}|hyperpage}{8}
+\indexentry{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}kol@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}kol}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{8}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}!tablica@{tablica}|hyperpage}{8}
+\indexentry{tablica@{tablica}!arr::Kolejka@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Kolejka}|hyperpage}{8}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}|hyperpage}{8}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}!$\sim $\discretionary {-}{}{}Kontener@{$\sim $\discretionary {-}{}{}Kontener}|hyperpage}{9}
+\indexentry{$\sim $\discretionary {-}{}{}Kontener@{$\sim $\discretionary {-}{}{}Kontener}!ls::Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}|hyperpage}{9}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}!Kontener@{Kontener}|hyperpage}{9}
+\indexentry{Kontener@{Kontener}!ls::Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}|hyperpage}{9}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}!erase@{erase}|hyperpage}{9}
+\indexentry{erase@{erase}!ls::Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}|hyperpage}{9}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}!find@{find}|hyperpage}{9}
+\indexentry{find@{find}!ls::Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}|hyperpage}{9}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}!insert@{insert}|hyperpage}{9}
+\indexentry{insert@{insert}!ls::Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}|hyperpage}{9}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}!push@{push}|hyperpage}{9}
+\indexentry{push@{push}!ls::Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}|hyperpage}{9}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}!show@{show}|hyperpage}{10}
+\indexentry{show@{show}!ls::Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}|hyperpage}{10}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}!size@{size}|hyperpage}{10}
+\indexentry{size@{size}!ls::Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}|hyperpage}{10}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}!alfa@{alfa}|hyperpage}{10}
+\indexentry{alfa@{alfa}!ls::Kontener@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Kontener}|hyperpage}{10}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{10}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!Lista@{Lista}|hyperpage}{11}
+\indexentry{Lista@{Lista}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{11}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!Lista@{Lista}|hyperpage}{11}
+\indexentry{Lista@{Lista}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{11}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!$\sim $\discretionary {-}{}{}Lista@{$\sim $\discretionary {-}{}{}Lista}|hyperpage}{11}
+\indexentry{$\sim $\discretionary {-}{}{}Lista@{$\sim $\discretionary {-}{}{}Lista}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{11}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!empty@{empty}|hyperpage}{11}
+\indexentry{empty@{empty}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{11}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!erase@{erase}|hyperpage}{11}
+\indexentry{erase@{erase}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{11}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!insert@{insert}|hyperpage}{11}
+\indexentry{insert@{insert}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{11}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1}|hyperpage}{12}
+\indexentry{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{12}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2}|hyperpage}{12}
+\indexentry{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{12}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!size@{size}|hyperpage}{12}
+\indexentry{size@{size}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{12}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}ls@{pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}ls}|hyperpage}{12}
+\indexentry{pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}ls@{pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}ls}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{12}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}ls@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}ls}|hyperpage}{12}
+\indexentry{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}ls@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}ls}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{12}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}!tablica@{tablica}|hyperpage}{12}
+\indexentry{tablica@{tablica}!arr::Lista@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Lista}|hyperpage}{12}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{12}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!$\sim $\discretionary {-}{}{}Stos@{$\sim $\discretionary {-}{}{}Stos}|hyperpage}{13}
+\indexentry{$\sim $\discretionary {-}{}{}Stos@{$\sim $\discretionary {-}{}{}Stos}!ls::Stos@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{13}
+\indexentry{ls\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!pop@{pop}|hyperpage}{13}
+\indexentry{pop@{pop}!ls::Stos@{ls\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{13}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{13}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!Stos@{Stos}|hyperpage}{14}
+\indexentry{Stos@{Stos}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{14}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!Stos@{Stos}|hyperpage}{14}
+\indexentry{Stos@{Stos}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{14}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!$\sim $\discretionary {-}{}{}Stos@{$\sim $\discretionary {-}{}{}Stos}|hyperpage}{14}
+\indexentry{$\sim $\discretionary {-}{}{}Stos@{$\sim $\discretionary {-}{}{}Stos}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{14}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!empty@{empty}|hyperpage}{14}
+\indexentry{empty@{empty}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{14}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!pop@{pop}|hyperpage}{14}
+\indexentry{pop@{pop}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{14}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!push@{push}|hyperpage}{14}
+\indexentry{push@{push}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{14}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1}|hyperpage}{15}
+\indexentry{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}1}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{15}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2}|hyperpage}{15}
+\indexentry{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2@{rozszerz\discretionary {-}{}{}\_\discretionary {-}{}{}x2}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{15}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!size@{size}|hyperpage}{15}
+\indexentry{size@{size}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{15}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}stosu@{pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}stosu}|hyperpage}{15}
+\indexentry{pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}stosu@{pojemnosc\discretionary {-}{}{}\_\discretionary {-}{}{}stosu}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{15}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}stosu@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}stosu}|hyperpage}{15}
+\indexentry{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}stosu@{rozmiar\discretionary {-}{}{}\_\discretionary {-}{}{}stosu}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{15}
+\indexentry{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}!tablica@{tablica}|hyperpage}{15}
+\indexentry{tablica@{tablica}!arr::Stos@{arr\discretionary {-}{}{}::\discretionary {-}{}{}Stos}|hyperpage}{15}

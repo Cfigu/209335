@@ -1,0 +1,9 @@
+\section{Lista plików}
+Tutaj znajduje się lista wszystkich plików z ich krótkimi opisami\-:\begin{DoxyCompactList}
+\item\contentsline{section}{\hyperlink{benchmark_8cpp}{benchmark.\-cpp} }{\pageref{benchmark_8cpp}}{}
+\item\contentsline{section}{\hyperlink{benchmark_8h}{benchmark.\-h} \\*Deklaracje funkcji związanych z analizą prędkości operacji }{\pageref{benchmark_8h}}{}
+\item\contentsline{section}{\hyperlink{main_8cpp}{main.\-cpp} }{\pageref{main_8cpp}}{}
+\item\contentsline{section}{\hyperlink{operacja_8cpp}{operacja.\-cpp} }{\pageref{operacja_8cpp}}{}
+\item\contentsline{section}{\hyperlink{operacja_8h}{operacja.\-h} \\*Plik zawiera deklarację funkcji \hyperlink{operacja_8h_ac4193d25d93c09e2404bdb7c7a27334a}{operacja()} }{\pageref{operacja_8h}}{}
+\item\contentsline{section}{\hyperlink{ustawienia_8h}{ustawienia.\-h} \\*Plik zawiera stałe preprocesora związane z generowaniem, obróbką i pomiarem właściwości danych }{\pageref{ustawienia_8h}}{}
+\end{DoxyCompactList}

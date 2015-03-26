@@ -1,0 +1,188 @@
+\hypertarget{classarr_1_1_kolejka}{\section{Dokumentacja klasy arr\-:\-:Kolejka}
+\label{classarr_1_1_kolejka}\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}}
+}
+
+
+{\ttfamily \#include $<$kolejka\-\_\-arr.\-h$>$}
+
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classarr_1_1_kolejka_a7f2d0e05c25b3a0d10db8e04cd4bdb58}{Kolejka} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyślny klasy \hyperlink{classarr_1_1_kolejka}{arr\-::\-Kolejka}. \end{DoxyCompactList}\item 
+\hyperlink{classarr_1_1_kolejka_a1addd7f5fdee63f093fd971037600b02}{Kolejka} (const \hyperlink{classarr_1_1_kolejka}{Kolejka} \&lewy)
+\begin{DoxyCompactList}\small\item\em Konstruktor kopiujący klasy \hyperlink{classarr_1_1_kolejka}{arr\-::\-Kolejka}. \end{DoxyCompactList}\item 
+\hyperlink{classarr_1_1_kolejka_a455a5aac4ea9612cab749b8e9edf131d}{$\sim$\-Kolejka} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \hyperlink{classarr_1_1_kolejka}{arr\-::\-Kolejka}. \end{DoxyCompactList}\item 
+void \hyperlink{classarr_1_1_kolejka_acb08e887411da797ab39960cde892dc5}{push} (int val)
+\begin{DoxyCompactList}\small\item\em Wrzuca element na szczyt kolejki. \end{DoxyCompactList}\item 
+int \hyperlink{classarr_1_1_kolejka_a9d2c0676d6992ffb3b2aa4cd27ca36af}{pop} ()
+\begin{DoxyCompactList}\small\item\em Zdejmuje najstarszy element z kolejki. \end{DoxyCompactList}\item 
+bool \hyperlink{classarr_1_1_kolejka_a8ed4d617d36bf539544d1f7e18929bf8}{empty} ()
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy kolejka jest pusta. \end{DoxyCompactList}\item 
+int \hyperlink{classarr_1_1_kolejka_a1aabde2dffcb50f4d8dc2e7d6df808ce}{size} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar kolejki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classarr_1_1_kolejka_affc094df5944c66cecfcaaeb490b7d67}{rozszerz\-\_\-x2} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwiększa dwukrotnie pojemnosć kolejki. \end{DoxyCompactList}\item 
+void \hyperlink{classarr_1_1_kolejka_a05e15597ec59b3c77ba15112b4018b2f}{rozszerz\-\_\-1} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwiększa pojemnosć kolejki o 1. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{classarr_1_1_kolejka_a80a504c56893e43ae1b407b971b501a7}{tablica}
+\item 
+int \hyperlink{classarr_1_1_kolejka_adbfdaca50c2b0bbe75d9b1e572f9b320}{rozmiar\-\_\-kol}
+\item 
+int \hyperlink{classarr_1_1_kolejka_ae10930beaa121ee5b178ffbb10b175e7}{pojemnosc\-\_\-kol}
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+
+
+Definicja w linii 7 pliku kolejka\-\_\-arr.\-h.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classarr_1_1_kolejka_a7f2d0e05c25b3a0d10db8e04cd4bdb58}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!Kolejka@{Kolejka}}
+\index{Kolejka@{Kolejka}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{Kolejka}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Kolejka\-::\-Kolejka (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classarr_1_1_kolejka_a7f2d0e05c25b3a0d10db8e04cd4bdb58}
+
+
+Definicja w linii 26 pliku kolejka\-\_\-arr.\-h.
+
+\hypertarget{classarr_1_1_kolejka_a1addd7f5fdee63f093fd971037600b02}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!Kolejka@{Kolejka}}
+\index{Kolejka@{Kolejka}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{Kolejka}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Kolejka\-::\-Kolejka (
+\begin{DoxyParamCaption}
+\item[{const {\bf Kolejka} \&}]{lewy}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_kolejka_a1addd7f5fdee63f093fd971037600b02}
+Bezużyteczny dla trzeciego zadania, ale na pewno kolega się ucieszy. 
+
+Definicja w linii 3 pliku kolejka\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_kolejka_a455a5aac4ea9612cab749b8e9edf131d}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!$\sim$\-Kolejka@{$\sim$\-Kolejka}}
+\index{$\sim$\-Kolejka@{$\sim$\-Kolejka}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{$\sim$\-Kolejka}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Kolejka\-::$\sim$\-Kolejka (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_kolejka_a455a5aac4ea9612cab749b8e9edf131d}
+
+
+Definicja w linii 10 pliku kolejka\-\_\-arr.\-cpp.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{classarr_1_1_kolejka_a8ed4d617d36bf539544d1f7e18929bf8}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!empty@{empty}}
+\index{empty@{empty}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}bool arr\-::\-Kolejka\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_kolejka_a8ed4d617d36bf539544d1f7e18929bf8}
+\begin{DoxyReturn}{Zwraca}
+Zwraca prawdę, jeżeli kolejka jest pusta. W przeciwnym razie zwraca false. 
+\end{DoxyReturn}
+
+
+Definicja w linii 44 pliku kolejka\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_kolejka_a9d2c0676d6992ffb3b2aa4cd27ca36af}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!pop@{pop}}
+\index{pop@{pop}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Kolejka\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_kolejka_a9d2c0676d6992ffb3b2aa4cd27ca36af}
+\begin{DoxyReturn}{Zwraca}
+Zwraca wartość przechowywaną w zdejmowanej cegiełce 
+\end{DoxyReturn}
+
+
+Definicja w linii 32 pliku kolejka\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_kolejka_acb08e887411da797ab39960cde892dc5}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!push@{push}}
+\index{push@{push}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Kolejka\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_kolejka_acb08e887411da797ab39960cde892dc5}
+
+
+Definicja w linii 15 pliku kolejka\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_kolejka_a05e15597ec59b3c77ba15112b4018b2f}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!rozszerz\-\_\-1@{rozszerz\-\_\-1}}
+\index{rozszerz\-\_\-1@{rozszerz\-\_\-1}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{rozszerz\-\_\-1}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Kolejka\-::rozszerz\-\_\-1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_kolejka_a05e15597ec59b3c77ba15112b4018b2f}
+
+
+Definicja w linii 64 pliku kolejka\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_kolejka_affc094df5944c66cecfcaaeb490b7d67}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!rozszerz\-\_\-x2@{rozszerz\-\_\-x2}}
+\index{rozszerz\-\_\-x2@{rozszerz\-\_\-x2}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{rozszerz\-\_\-x2}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Kolejka\-::rozszerz\-\_\-x2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_kolejka_affc094df5944c66cecfcaaeb490b7d67}
+
+
+Definicja w linii 49 pliku kolejka\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_kolejka_a1aabde2dffcb50f4d8dc2e7d6df808ce}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!size@{size}}
+\index{size@{size}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Kolejka\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classarr_1_1_kolejka_a1aabde2dffcb50f4d8dc2e7d6df808ce}
+
+
+Definicja w linii 56 pliku kolejka\-\_\-arr.\-h.
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classarr_1_1_kolejka_ae10930beaa121ee5b178ffbb10b175e7}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!pojemnosc\-\_\-kol@{pojemnosc\-\_\-kol}}
+\index{pojemnosc\-\_\-kol@{pojemnosc\-\_\-kol}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{pojemnosc\-\_\-kol}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Kolejka\-::pojemnosc\-\_\-kol\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_kolejka_ae10930beaa121ee5b178ffbb10b175e7}
+
+
+Definicja w linii 12 pliku kolejka\-\_\-arr.\-h.
+
+\hypertarget{classarr_1_1_kolejka_adbfdaca50c2b0bbe75d9b1e572f9b320}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!rozmiar\-\_\-kol@{rozmiar\-\_\-kol}}
+\index{rozmiar\-\_\-kol@{rozmiar\-\_\-kol}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{rozmiar\-\_\-kol}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Kolejka\-::rozmiar\-\_\-kol\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_kolejka_adbfdaca50c2b0bbe75d9b1e572f9b320}
+
+
+Definicja w linii 11 pliku kolejka\-\_\-arr.\-h.
+
+\hypertarget{classarr_1_1_kolejka_a80a504c56893e43ae1b407b971b501a7}{\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!tablica@{tablica}}
+\index{tablica@{tablica}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{tablica}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ arr\-::\-Kolejka\-::tablica\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_kolejka_a80a504c56893e43ae1b407b971b501a7}
+
+
+Definicja w linii 10 pliku kolejka\-\_\-arr.\-h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{kolejka__arr_8h}{kolejka\-\_\-arr.\-h}\item 
+\hyperlink{kolejka__arr_8cpp}{kolejka\-\_\-arr.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,196 @@
+\hypertarget{classarr_1_1_lista}{\section{Dokumentacja klasy arr\-:\-:Lista}
+\label{classarr_1_1_lista}\index{arr\-::\-Lista@{arr\-::\-Lista}}
+}
+
+
+{\ttfamily \#include $<$lista\-\_\-arr.\-h$>$}
+
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classarr_1_1_lista_a11b61b647380e962aeeb35848c427b81}{Lista} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyślny klasy \hyperlink{classarr_1_1_lista}{arr\-::\-Lista}. \end{DoxyCompactList}\item 
+\hyperlink{classarr_1_1_lista_a29bae0190a2d5c38ebfdf33eb05d1c09}{Lista} (const \hyperlink{classarr_1_1_lista}{Lista} \&lewy)
+\begin{DoxyCompactList}\small\item\em Konstruktor kopiujący klasy \hyperlink{classarr_1_1_lista}{arr\-::\-Lista}. \end{DoxyCompactList}\item 
+\hyperlink{classarr_1_1_lista_ac3b5f77b08befbf28e922179dcace594}{$\sim$\-Lista} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \hyperlink{classarr_1_1_lista}{arr\-::\-Lista}. \end{DoxyCompactList}\item 
+int \hyperlink{classarr_1_1_lista_ad370aa7f4e6bf3f2492f5187c9d64d56}{erase} (int)
+\begin{DoxyCompactList}\small\item\em Usuwa z listy element o wybranym indeksie. \end{DoxyCompactList}\item 
+void \hyperlink{classarr_1_1_lista_a57365c410ba6ac9d82eb4b4a83bc89bd}{insert} (int, int)
+\begin{DoxyCompactList}\small\item\em Umieszcza cegłę z wartością 'wartosc' w miejscu oddalonym o 'indeks' miejsc od początku kontenera. \end{DoxyCompactList}\item 
+bool \hyperlink{classarr_1_1_lista_a6eef5db974ccbb5f133a76d22b375ae9}{empty} ()
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy lista jest pusta. \end{DoxyCompactList}\item 
+int \hyperlink{classarr_1_1_lista_a853418a2061e80c83185f03f0e1568c6}{size} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar listy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classarr_1_1_lista_ac4f01715efe075f780e006d757ed0c26}{rozszerz\-\_\-x2} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwiększa dwukrotnie pojemnosć listy. \end{DoxyCompactList}\item 
+void \hyperlink{classarr_1_1_lista_ad6bf8061555507002920efbe6f3c0bb1}{rozszerz\-\_\-1} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwiększa pojemnosć listy o 1. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{classarr_1_1_lista_aba76002ee48a3dc21187f0bf9da1a746}{tablica}
+\item 
+int \hyperlink{classarr_1_1_lista_a5d6712accdb4a0eda72038aadbfe1cd6}{rozmiar\-\_\-ls}
+\item 
+int \hyperlink{classarr_1_1_lista_a46550171712501ae7301b95b5c35d14c}{pojemnosc\-\_\-ls}
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+
+
+Definicja w linii 6 pliku lista\-\_\-arr.\-h.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classarr_1_1_lista_a11b61b647380e962aeeb35848c427b81}{\index{arr\-::\-Lista@{arr\-::\-Lista}!Lista@{Lista}}
+\index{Lista@{Lista}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{Lista}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Lista\-::\-Lista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classarr_1_1_lista_a11b61b647380e962aeeb35848c427b81}
+
+
+Definicja w linii 25 pliku lista\-\_\-arr.\-h.
+
+\hypertarget{classarr_1_1_lista_a29bae0190a2d5c38ebfdf33eb05d1c09}{\index{arr\-::\-Lista@{arr\-::\-Lista}!Lista@{Lista}}
+\index{Lista@{Lista}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{Lista}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Lista\-::\-Lista (
+\begin{DoxyParamCaption}
+\item[{const {\bf Lista} \&}]{lewy}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_lista_a29bae0190a2d5c38ebfdf33eb05d1c09}
+Bezużyteczny dla trzeciego zadania, ale na pewno kolega się ucieszy. \hypertarget{classarr_1_1_lista_ac3b5f77b08befbf28e922179dcace594}{\index{arr\-::\-Lista@{arr\-::\-Lista}!$\sim$\-Lista@{$\sim$\-Lista}}
+\index{$\sim$\-Lista@{$\sim$\-Lista}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{$\sim$\-Lista}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Lista\-::$\sim$\-Lista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classarr_1_1_lista_ac3b5f77b08befbf28e922179dcace594}
+
+
+Definicja w linii 35 pliku lista\-\_\-arr.\-h.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{classarr_1_1_lista_a6eef5db974ccbb5f133a76d22b375ae9}{\index{arr\-::\-Lista@{arr\-::\-Lista}!empty@{empty}}
+\index{empty@{empty}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}bool arr\-::\-Lista\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_lista_a6eef5db974ccbb5f133a76d22b375ae9}
+\begin{DoxyReturn}{Zwraca}
+Zwraca prawdę, jeżeli lista jest pusta. W przeciwnym razie zwraca false. 
+\end{DoxyReturn}
+
+
+Definicja w linii 3 pliku lista\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_lista_ad370aa7f4e6bf3f2492f5187c9d64d56}{\index{arr\-::\-Lista@{arr\-::\-Lista}!erase@{erase}}
+\index{erase@{erase}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{erase}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Lista\-::erase (
+\begin{DoxyParamCaption}
+\item[{int}]{indeks}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_lista_ad370aa7f4e6bf3f2492f5187c9d64d56}
+Zapisuje wartość przechowywaną pod danym indeksem a potem przesuwa całą zawartość tablicy młodszą od danego elementu o 1 w stronę starszych elementów. Zmniejsza licznik rozmiar\-\_\-ls o 1.
+
+Przykład 1\-: Wyrażenie obj.\-erase(0) usuwa najmłodszy element kontenera. Przykład 2\-: Wyrażenie obj.\-erase(obj.\-size() -\/ 1) usuwa najstarszy element. Przykład 3\-: Wyrażenie obj.\-erase(obj.\-size()) nie zmienia kontenera.
+
+\begin{DoxyReturn}{Zwraca}
+Zwraca wartość przechowywaną w usuniętej cegiełce. 
+\end{DoxyReturn}
+
+
+Definicja w linii 8 pliku lista\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_lista_a57365c410ba6ac9d82eb4b4a83bc89bd}{\index{arr\-::\-Lista@{arr\-::\-Lista}!insert@{insert}}
+\index{insert@{insert}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Lista\-::insert (
+\begin{DoxyParamCaption}
+\item[{int}]{value, }
+\item[{int}]{indeks}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_lista_a57365c410ba6ac9d82eb4b4a83bc89bd}
+Zwiększa licznik rozmiar\-\_\-ls o 1, odsuwa wszystkie elementy młodsze od danego indeksu o 1 od starszych i umieszcza wartość w odpowiednim indeksie. Może powodować realokację zawartości listy!
+
+U\-W\-A\-G\-A\-: Indeks liczony jest od zera, od najmłodszej cegły.
+
+Przykład 1\-: Wyrażenie obj.\-insert(5,0) jest równoważne wyrażeniu obj.\-push(5)
+\begin{DoxyItemize}
+\item element zawierający wartość 5 jest teraz najmłodszym elementem. Przykład 2\-: Wyrażenie obj.\-insert(3,obj.\-size()) czyni element zawierający wartosć 3 najstarszym elementem. 
+\end{DoxyItemize}
+
+Definicja w linii 20 pliku lista\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_lista_ad6bf8061555507002920efbe6f3c0bb1}{\index{arr\-::\-Lista@{arr\-::\-Lista}!rozszerz\-\_\-1@{rozszerz\-\_\-1}}
+\index{rozszerz\-\_\-1@{rozszerz\-\_\-1}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{rozszerz\-\_\-1}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Lista\-::rozszerz\-\_\-1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_lista_ad6bf8061555507002920efbe6f3c0bb1}
+
+
+Definicja w linii 59 pliku lista\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_lista_ac4f01715efe075f780e006d757ed0c26}{\index{arr\-::\-Lista@{arr\-::\-Lista}!rozszerz\-\_\-x2@{rozszerz\-\_\-x2}}
+\index{rozszerz\-\_\-x2@{rozszerz\-\_\-x2}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{rozszerz\-\_\-x2}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Lista\-::rozszerz\-\_\-x2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_lista_ac4f01715efe075f780e006d757ed0c26}
+
+
+Definicja w linii 44 pliku lista\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_lista_a853418a2061e80c83185f03f0e1568c6}{\index{arr\-::\-Lista@{arr\-::\-Lista}!size@{size}}
+\index{size@{size}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Lista\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classarr_1_1_lista_a853418a2061e80c83185f03f0e1568c6}
+
+
+Definicja w linii 83 pliku lista\-\_\-arr.\-h.
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classarr_1_1_lista_a46550171712501ae7301b95b5c35d14c}{\index{arr\-::\-Lista@{arr\-::\-Lista}!pojemnosc\-\_\-ls@{pojemnosc\-\_\-ls}}
+\index{pojemnosc\-\_\-ls@{pojemnosc\-\_\-ls}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{pojemnosc\-\_\-ls}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Lista\-::pojemnosc\-\_\-ls\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_lista_a46550171712501ae7301b95b5c35d14c}
+
+
+Definicja w linii 11 pliku lista\-\_\-arr.\-h.
+
+\hypertarget{classarr_1_1_lista_a5d6712accdb4a0eda72038aadbfe1cd6}{\index{arr\-::\-Lista@{arr\-::\-Lista}!rozmiar\-\_\-ls@{rozmiar\-\_\-ls}}
+\index{rozmiar\-\_\-ls@{rozmiar\-\_\-ls}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{rozmiar\-\_\-ls}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Lista\-::rozmiar\-\_\-ls\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_lista_a5d6712accdb4a0eda72038aadbfe1cd6}
+
+
+Definicja w linii 10 pliku lista\-\_\-arr.\-h.
+
+\hypertarget{classarr_1_1_lista_aba76002ee48a3dc21187f0bf9da1a746}{\index{arr\-::\-Lista@{arr\-::\-Lista}!tablica@{tablica}}
+\index{tablica@{tablica}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{tablica}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ arr\-::\-Lista\-::tablica\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_lista_aba76002ee48a3dc21187f0bf9da1a746}
+
+
+Definicja w linii 9 pliku lista\-\_\-arr.\-h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{lista__arr_8h}{lista\-\_\-arr.\-h}\item 
+\hyperlink{lista__arr_8cpp}{lista\-\_\-arr.\-cpp}\end{DoxyCompactItemize}

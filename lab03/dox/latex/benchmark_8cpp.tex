@@ -1,0 +1,46 @@
+\hypertarget{benchmark_8cpp}{\section{Dokumentacja pliku benchmark.\-cpp}
+\label{benchmark_8cpp}\index{benchmark.\-cpp@{benchmark.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}../inc/benchmark.\-h\char`\"{}}\\*
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{benchmark_8cpp_aa64f5c659f0dd5f25435b15c1e1fa7f5}{Benchmark} ()
+\begin{DoxyCompactList}\small\item\em Główna funkcja programu. \end{DoxyCompactList}\item 
+int \hyperlink{benchmark_8cpp_a43bc241c88791024a92dc76ff18d0d48}{licz\-\_\-dekady} (int dlugosc\-\_\-ciagu)
+\begin{DoxyCompactList}\small\item\em Funkcja pomocnicza do określania ilości dekad. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\hypertarget{benchmark_8cpp_aa64f5c659f0dd5f25435b15c1e1fa7f5}{\index{benchmark.\-cpp@{benchmark.\-cpp}!Benchmark@{Benchmark}}
+\index{Benchmark@{Benchmark}!benchmark.cpp@{benchmark.\-cpp}}
+\subsubsection[{Benchmark}]{\setlength{\rightskip}{0pt plus 5cm}void Benchmark (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{benchmark_8cpp_aa64f5c659f0dd5f25435b15c1e1fa7f5}
+Funkcja wywoływana w funkcji \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main()}. Nie przyjmuje argumentów ani nie zwraca wartości. Funkcja otwiera plik, który powinien zawierać ciąg danych, na których przeprowadzona zostanie operacja. Otwiera także plik, do którego zapisane mają zostać wyniki czasowe operacji. Nazwy plików określone są w nagłówku \char`\"{}ustawienia.\-h\char`\"{}. Z pliku wejściowego wczytuje do obiektu klasy std\-::vector ciąg danych. Do zmiennej typu clock\-\_\-t zostaje zapisany czas procesora od rozpoczęcia procesu. Do funkcji \hyperlink{operacja_8h_a7de44f86b01513b6593ff27e0f62645e}{operacja()} zostaje przekazana referencja do obiektu zawierającego ciąg danych. Po wyjściu z funkcji \hyperlink{operacja_8h_a7de44f86b01513b6593ff27e0f62645e}{operacja()} do zmiennej typu clock\-\_\-t() zostaje tym razem zapisana różnica czasów procesora pomiędzy rozpoczęciem procesu a wartością typu clock\-\_\-t zwróconą przez funkcję \hyperlink{operacja_8h_a7de44f86b01513b6593ff27e0f62645e}{operacja()}. Czas ten przeliczany jest na sekundy i zapisany do pliku wyjściowego. W \char`\"{}ustawienia.\-h\char`\"{} określona jest ilość powtórzeń pomiaru. Pomiary zaczynają się od operacji na jednej wartości i kończą na ciąu danych o długości największej potęgi dziesiątki. Pomiary powtarzane są co dekadę. Informację o największej potędze dziesiątki dostarcza funkcja \hyperlink{benchmark_8h_a43bc241c88791024a92dc76ff18d0d48}{licz\-\_\-dekady()}. 
+
+Definicja w linii 4 pliku benchmark.\-cpp.
+
+\hypertarget{benchmark_8cpp_a43bc241c88791024a92dc76ff18d0d48}{\index{benchmark.\-cpp@{benchmark.\-cpp}!licz\-\_\-dekady@{licz\-\_\-dekady}}
+\index{licz\-\_\-dekady@{licz\-\_\-dekady}!benchmark.cpp@{benchmark.\-cpp}}
+\subsubsection[{licz\-\_\-dekady}]{\setlength{\rightskip}{0pt plus 5cm}int licz\-\_\-dekady (
+\begin{DoxyParamCaption}
+\item[{int}]{dlugosc\-\_\-ciagu}
+\end{DoxyParamCaption}
+)}}\label{benchmark_8cpp_a43bc241c88791024a92dc76ff18d0d48}
+Przyjmuje jako argument liczbę całkowitą reprezentującą długość ciągu danych i zaokrągla ją w dół do najbliższej potęgi liczby 10.
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em dlugosc\-\_\-ciagu} & Długość ciągu danych. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+Zwraca zaokrąglenie w dół do najbliższej potęgi dziesiątki wartości dlugosc\-\_\-ciagu. 
+\end{DoxyReturn}
+
+
+Definicja w linii 59 pliku benchmark.\-cpp.
+

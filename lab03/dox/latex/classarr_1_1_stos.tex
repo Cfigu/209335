@@ -1,0 +1,185 @@
+\hypertarget{classarr_1_1_stos}{\section{Dokumentacja klasy arr\-:\-:Stos}
+\label{classarr_1_1_stos}\index{arr\-::\-Stos@{arr\-::\-Stos}}
+}
+
+
+{\ttfamily \#include $<$stos\-\_\-arr.\-h$>$}
+
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classarr_1_1_stos_acc173736bd233091fe1205c7b2ad08e3}{Stos} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyślny klasy \hyperlink{classarr_1_1_stos}{Stos}. \end{DoxyCompactList}\item 
+\hyperlink{classarr_1_1_stos_a3fa4c0909a0a8af714a7a41925c9bfc4}{Stos} (const \hyperlink{classarr_1_1_stos}{Stos} \&lewy)
+\begin{DoxyCompactList}\small\item\em Konstruktor kopiujący klasy \hyperlink{classarr_1_1_stos}{Stos}. \end{DoxyCompactList}\item 
+\hyperlink{classarr_1_1_stos_aab930de62382058082057237c0651c85}{$\sim$\-Stos} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \hyperlink{classarr_1_1_stos}{Stos}. \end{DoxyCompactList}\item 
+void \hyperlink{classarr_1_1_stos_a818b45b7e1133cf8666a8996795823a6}{push} (int val)
+\begin{DoxyCompactList}\small\item\em Wrzuca element na szczyt stosu. \end{DoxyCompactList}\item 
+int \hyperlink{classarr_1_1_stos_a3d8fd4cebbcc8eb5aed6bfe15e1b86d8}{pop} ()
+\begin{DoxyCompactList}\small\item\em Zdejmuje najmłodszy element ze stosu. \end{DoxyCompactList}\item 
+bool \hyperlink{classarr_1_1_stos_aa65aee46af4fbfe791b7419d9e2dc2d1}{empty} ()
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy stos jest pusty. \end{DoxyCompactList}\item 
+int \hyperlink{classarr_1_1_stos_a7f40cb3055b25794dfd484e6e8bd4822}{size} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar stosu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classarr_1_1_stos_a26833a56e91aefa4dfbc78cafe7ef216}{rozszerz\-\_\-x2} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwiększa dwukrotnie pojemnosć stosu. \end{DoxyCompactList}\item 
+void \hyperlink{classarr_1_1_stos_a302eb8f0ef06039bd7408a881d3d2c60}{rozszerz\-\_\-1} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwiększa pojemnosć stosu o 1. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{classarr_1_1_stos_ad8e05da5f97f966b3c4f21d661e88b05}{tablica}
+\item 
+int \hyperlink{classarr_1_1_stos_a1980b721d3a83d8811b07ccf37f62e5e}{rozmiar\-\_\-stosu}
+\item 
+int \hyperlink{classarr_1_1_stos_a577c49248d0925cb5ca4f0a53aeebe8c}{pojemnosc\-\_\-stosu}
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+
+
+Definicja w linii 7 pliku stos\-\_\-arr.\-h.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classarr_1_1_stos_acc173736bd233091fe1205c7b2ad08e3}{\index{arr\-::\-Stos@{arr\-::\-Stos}!Stos@{Stos}}
+\index{Stos@{Stos}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{Stos}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Stos\-::\-Stos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classarr_1_1_stos_acc173736bd233091fe1205c7b2ad08e3}
+
+
+Definicja w linii 26 pliku stos\-\_\-arr.\-h.
+
+\hypertarget{classarr_1_1_stos_a3fa4c0909a0a8af714a7a41925c9bfc4}{\index{arr\-::\-Stos@{arr\-::\-Stos}!Stos@{Stos}}
+\index{Stos@{Stos}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{Stos}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Stos\-::\-Stos (
+\begin{DoxyParamCaption}
+\item[{const {\bf Stos} \&}]{lewy}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_stos_a3fa4c0909a0a8af714a7a41925c9bfc4}
+Bezużyteczny dla trzeciego zadania, ale na pewno kolega się ucieszy. 
+
+Definicja w linii 3 pliku stos\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_stos_aab930de62382058082057237c0651c85}{\index{arr\-::\-Stos@{arr\-::\-Stos}!$\sim$\-Stos@{$\sim$\-Stos}}
+\index{$\sim$\-Stos@{$\sim$\-Stos}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{$\sim$\-Stos}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Stos\-::$\sim$\-Stos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_stos_aab930de62382058082057237c0651c85}
+
+
+Definicja w linii 10 pliku stos\-\_\-arr.\-cpp.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{classarr_1_1_stos_aa65aee46af4fbfe791b7419d9e2dc2d1}{\index{arr\-::\-Stos@{arr\-::\-Stos}!empty@{empty}}
+\index{empty@{empty}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}bool arr\-::\-Stos\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_stos_aa65aee46af4fbfe791b7419d9e2dc2d1}
+\begin{DoxyReturn}{Zwraca}
+Zwraca prawdę, jeżeli kolejka jest pusta. W przeciwnym razie zwraca false. 
+\end{DoxyReturn}
+
+
+Definicja w linii 38 pliku stos\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_stos_a3d8fd4cebbcc8eb5aed6bfe15e1b86d8}{\index{arr\-::\-Stos@{arr\-::\-Stos}!pop@{pop}}
+\index{pop@{pop}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Stos\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_stos_a3d8fd4cebbcc8eb5aed6bfe15e1b86d8}
+
+
+Definicja w linii 32 pliku stos\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_stos_a818b45b7e1133cf8666a8996795823a6}{\index{arr\-::\-Stos@{arr\-::\-Stos}!push@{push}}
+\index{push@{push}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Stos\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}}\label{classarr_1_1_stos_a818b45b7e1133cf8666a8996795823a6}
+
+
+Definicja w linii 15 pliku stos\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_stos_a302eb8f0ef06039bd7408a881d3d2c60}{\index{arr\-::\-Stos@{arr\-::\-Stos}!rozszerz\-\_\-1@{rozszerz\-\_\-1}}
+\index{rozszerz\-\_\-1@{rozszerz\-\_\-1}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{rozszerz\-\_\-1}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Stos\-::rozszerz\-\_\-1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_stos_a302eb8f0ef06039bd7408a881d3d2c60}
+
+
+Definicja w linii 58 pliku stos\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_stos_a26833a56e91aefa4dfbc78cafe7ef216}{\index{arr\-::\-Stos@{arr\-::\-Stos}!rozszerz\-\_\-x2@{rozszerz\-\_\-x2}}
+\index{rozszerz\-\_\-x2@{rozszerz\-\_\-x2}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{rozszerz\-\_\-x2}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Stos\-::rozszerz\-\_\-x2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_stos_a26833a56e91aefa4dfbc78cafe7ef216}
+
+
+Definicja w linii 43 pliku stos\-\_\-arr.\-cpp.
+
+\hypertarget{classarr_1_1_stos_a7f40cb3055b25794dfd484e6e8bd4822}{\index{arr\-::\-Stos@{arr\-::\-Stos}!size@{size}}
+\index{size@{size}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Stos\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classarr_1_1_stos_a7f40cb3055b25794dfd484e6e8bd4822}
+
+
+Definicja w linii 54 pliku stos\-\_\-arr.\-h.
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classarr_1_1_stos_a577c49248d0925cb5ca4f0a53aeebe8c}{\index{arr\-::\-Stos@{arr\-::\-Stos}!pojemnosc\-\_\-stosu@{pojemnosc\-\_\-stosu}}
+\index{pojemnosc\-\_\-stosu@{pojemnosc\-\_\-stosu}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{pojemnosc\-\_\-stosu}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Stos\-::pojemnosc\-\_\-stosu\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_stos_a577c49248d0925cb5ca4f0a53aeebe8c}
+
+
+Definicja w linii 12 pliku stos\-\_\-arr.\-h.
+
+\hypertarget{classarr_1_1_stos_a1980b721d3a83d8811b07ccf37f62e5e}{\index{arr\-::\-Stos@{arr\-::\-Stos}!rozmiar\-\_\-stosu@{rozmiar\-\_\-stosu}}
+\index{rozmiar\-\_\-stosu@{rozmiar\-\_\-stosu}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{rozmiar\-\_\-stosu}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Stos\-::rozmiar\-\_\-stosu\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_stos_a1980b721d3a83d8811b07ccf37f62e5e}
+
+
+Definicja w linii 11 pliku stos\-\_\-arr.\-h.
+
+\hypertarget{classarr_1_1_stos_ad8e05da5f97f966b3c4f21d661e88b05}{\index{arr\-::\-Stos@{arr\-::\-Stos}!tablica@{tablica}}
+\index{tablica@{tablica}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{tablica}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ arr\-::\-Stos\-::tablica\hspace{0.3cm}{\ttfamily [private]}}}\label{classarr_1_1_stos_ad8e05da5f97f966b3c4f21d661e88b05}
+
+
+Definicja w linii 10 pliku stos\-\_\-arr.\-h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stos__arr_8h}{stos\-\_\-arr.\-h}\item 
+\hyperlink{stos__arr_8cpp}{stos\-\_\-arr.\-cpp}\end{DoxyCompactItemize}
