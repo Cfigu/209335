@@ -21,7 +21,7 @@ obj/ListaAr.o: src/ListaAr.cpp inc/ListaAr.h
 obj/Lista.o: src/Lista.cpp inc/Lista.h 
 	g++ ${CPPFLAGS} -o obj/Lista.o src/Lista.cpp
 
-obj/funcje.o: src/funkcje.cpp inc/funkcje.h
+obj/funkcje.o: src/funkcje.cpp inc/funkcje.h
 	g++ ${CPPFLAGS} -o obj/funkcje.o src/funkcje.cpp
 
 clean:
