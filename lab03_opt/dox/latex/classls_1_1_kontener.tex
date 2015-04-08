@@ -1,0 +1,204 @@
+\section{ls\-:\-:Kontener Class Reference}
+\label{classls_1_1_kontener}\index{ls\-::\-Kontener@{ls\-::\-Kontener}}
+
+
+{\ttfamily \#include $<$kontener.\-h$>$}
+
+Inheritance diagram for ls\-:\-:Kontener\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classls_1_1_kontener}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf $\sim$\-Kontener} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxyref{Kontener}{p.}{classls_1_1_kontener}. \end{DoxyCompactList}\item 
+{\bf Kontener} ()
+\item 
+void {\bf push} (int)
+\begin{DoxyCompactList}\small\item\em Wrzuca nową cegiełkę na początek kontenera. \end{DoxyCompactList}\item 
+void {\bf insert} (int wartosc, int indeks)
+\begin{DoxyCompactList}\small\item\em Umieszcza cegłę z wartością 'wartosc' w miejscu oddalonym o 'indeks' miejsc od początku kontenera. \end{DoxyCompactList}\item 
+int {\bf size} ()
+\begin{DoxyCompactList}\small\item\em Liczy z ilu cegiełek składa się kontener. \end{DoxyCompactList}\item 
+int {\bf erase} (int)
+\begin{DoxyCompactList}\small\item\em Usuwa z listy element o wybranym indeksie. \end{DoxyCompactList}\item 
+int {\bf find} (int)
+\begin{DoxyCompactList}\small\item\em Odnajduje w kontenerze przekazaną w argumencie wartość. \end{DoxyCompactList}\item 
+void {\bf show} ()
+\begin{DoxyCompactList}\small\item\em Wypisuje elementy listy od najmłodszego zaczynając. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf cegla} $\ast$ {\bf alfa}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 14 of file kontener.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{ls\-::\-Kontener@{ls\-::\-Kontener}!$\sim$\-Kontener@{$\sim$\-Kontener}}
+\index{$\sim$\-Kontener@{$\sim$\-Kontener}!ls::Kontener@{ls\-::\-Kontener}}
+\subsubsection[{$\sim$\-Kontener}]{\setlength{\rightskip}{0pt plus 5cm}ls\-::\-Kontener\-::$\sim$\-Kontener (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classls_1_1_kontener_a52711b1bc80413d48840ce8071a427fa}
+
+
+Konstruktor klasy \doxyref{Kontener}{p.}{classls_1_1_kontener}. 
+
+Konstruktor klasy \doxyref{Kontener}{p.}{classls_1_1_kontener} inicjalizuje wskaźnik 'alfa' wartością N\-U\-L\-L. 
+
+Definition at line 7 of file kontener.\-cpp.
+
+\index{ls\-::\-Kontener@{ls\-::\-Kontener}!Kontener@{Kontener}}
+\index{Kontener@{Kontener}!ls::Kontener@{ls\-::\-Kontener}}
+\subsubsection[{Kontener}]{\setlength{\rightskip}{0pt plus 5cm}ls\-::\-Kontener\-::\-Kontener (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classls_1_1_kontener_a1c8f0e384b9d8e945ee70354eb144657}
+
+
+Definition at line 27 of file kontener.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\index{ls\-::\-Kontener@{ls\-::\-Kontener}!erase@{erase}}
+\index{erase@{erase}!ls::Kontener@{ls\-::\-Kontener}}
+\subsubsection[{erase}]{\setlength{\rightskip}{0pt plus 5cm}int ls\-::\-Kontener\-::erase (
+\begin{DoxyParamCaption}
+\item[{int}]{indeks}
+\end{DoxyParamCaption}
+)}\label{classls_1_1_kontener_a3b9fed0ce54e6232bd2868bf4b3801ec}
+
+
+Usuwa z listy element o wybranym indeksie. 
+
+Zainicjalizowane są dwa wskaźniki na najmłodszą cegiełkę. Jeden jest ustawiany na element do usunięcia, drugi na element o jeden młodszy. Następuje roszada wskaźników\-: wskaźnik młodszej cegły wskazuje na cegłę starszą od usuwanej, zostaje zapisana wartość przechowywana przez usuwaną cegłę i wreszcie zwolniona zostaje pamięć zajmowana dotychczas przez cegłę.
+
+Przykład 1\-: Wyrażenie obj.\-erase(0) usuwa najmłodszy element kontenera. Przykład 2\-: Wyrażenie obj.\-erase(obj.\-size() -\/ 1) usuwa najstarszy element. Przykład 3\-: Wyrażenie obj.\-erase(obj.\-size()) nie zmienia kontenera.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartość przechowywaną w usuniętej cegiełce. 
+\end{DoxyReturn}
+
+
+Definition at line 65 of file kontener.\-cpp.
+
+\index{ls\-::\-Kontener@{ls\-::\-Kontener}!find@{find}}
+\index{find@{find}!ls::Kontener@{ls\-::\-Kontener}}
+\subsubsection[{find}]{\setlength{\rightskip}{0pt plus 5cm}int ls\-::\-Kontener\-::find (
+\begin{DoxyParamCaption}
+\item[{int}]{wartosc}
+\end{DoxyParamCaption}
+)}\label{classls_1_1_kontener_a04841df56a29d488e5e0d1a292646dde}
+
+
+Odnajduje w kontenerze przekazaną w argumencie wartość. 
+
+Powołany do życia jest szpieg -\/ wskaźnik na obiekt typu 'cegla', który przemierza kontener w poszukiwaniu najwcześniejszego wystąpienia poszukiwanej wartości. Operacji towarzyszy licznik, który śledzi ilość miniętych przez wskaźnik cegieł, którą metoda zwraca. Należy ją interpretować jako indeks cegły, gdzie najwcześniej wystąpiła poszukiwana wartość.
+
+\begin{DoxyReturn}{Returns}
+Zwraca indeks (liczony od 0 od najmłodszej cegiełki) najbliższego wystąpienia poszukiwanej wartości. 
+\end{DoxyReturn}
+
+
+Definition at line 99 of file kontener.\-cpp.
+
+\index{ls\-::\-Kontener@{ls\-::\-Kontener}!insert@{insert}}
+\index{insert@{insert}!ls::Kontener@{ls\-::\-Kontener}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}void ls\-::\-Kontener\-::insert (
+\begin{DoxyParamCaption}
+\item[{int}]{wartosc, }
+\item[{int}]{indeks}
+\end{DoxyParamCaption}
+)}\label{classls_1_1_kontener_a09517b6ec268d37744b1abbc7b7df5bb}
+
+
+Umieszcza cegłę z wartością 'wartosc' w miejscu oddalonym o 'indeks' miejsc od początku kontenera. 
+
+U\-W\-A\-G\-A\-: Indeks liczony jest od zera, od najmłodszej cegły.
+
+Przykład 1\-: Wyrażenie obj.\-insert(5,0) jest równoważne wyrażeniu obj.\-push(5)
+\begin{DoxyItemize}
+\item element zawierający wartość 5 jest teraz najmłodszym elementem. Przykład 2\-: Wyrażenie obj.\-insert(3,obj.\-size()) czyni element zawierający wartosć 3 najstarszym elementem. 
+\end{DoxyItemize}
+
+Definition at line 21 of file kontener.\-cpp.
+
+\index{ls\-::\-Kontener@{ls\-::\-Kontener}!push@{push}}
+\index{push@{push}!ls::Kontener@{ls\-::\-Kontener}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void ls\-::\-Kontener\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{wart}
+\end{DoxyParamCaption}
+)}\label{classls_1_1_kontener_a911b275202510df1f321f8da26f0aa34}
+
+
+Wrzuca nową cegiełkę na początek kontenera. 
+
+
+
+Definition at line 13 of file kontener.\-cpp.
+
+\index{ls\-::\-Kontener@{ls\-::\-Kontener}!show@{show}}
+\index{show@{show}!ls::Kontener@{ls\-::\-Kontener}}
+\subsubsection[{show}]{\setlength{\rightskip}{0pt plus 5cm}void ls\-::\-Kontener\-::show (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classls_1_1_kontener_a75014b0a40e25ac573e2242d50522e08}
+
+
+Wypisuje elementy listy od najmłodszego zaczynając. 
+
+
+
+Definition at line 116 of file kontener.\-cpp.
+
+\index{ls\-::\-Kontener@{ls\-::\-Kontener}!size@{size}}
+\index{size@{size}!ls::Kontener@{ls\-::\-Kontener}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int ls\-::\-Kontener\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classls_1_1_kontener_a248ac01db2477296b265fb0ea07a8c1c}
+
+
+Liczy z ilu cegiełek składa się kontener. 
+
+Zainicjalizowany zostaje wskaźnik na strukturę 'cegla' wskazujący na najmłodszą cegiełkę. Zostaje on potem wysłany w epicką podróż na sam koniec kontenera (czyli do napotkania N\-U\-L\-La). Towarzyszy mu licznik, który zlicza mijane po drodze cegiełki, których ilosć funkcja zwraca.
+
+\begin{DoxyReturn}{Returns}
+Zwraca wielkość kontenera. 
+\end{DoxyReturn}
+
+
+Definition at line 50 of file kontener.\-cpp.
+
+
+
+\subsection{Member Data Documentation}
+\index{ls\-::\-Kontener@{ls\-::\-Kontener}!alfa@{alfa}}
+\index{alfa@{alfa}!ls::Kontener@{ls\-::\-Kontener}}
+\subsubsection[{alfa}]{\setlength{\rightskip}{0pt plus 5cm}{\bf cegla}$\ast$ ls\-::\-Kontener\-::alfa\hspace{0.3cm}{\ttfamily [protected]}}\label{classls_1_1_kontener_af14ba3415f7ed315583ccb4575dfed9f}
+
+
+Definition at line 17 of file kontener.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/damian/mkrawczuk/209147/lab03\-\_\-opt/prj/inc/{\bf kontener.\-h}\item 
+/home/damian/mkrawczuk/209147/lab03\-\_\-opt/prj/src/{\bf kontener.\-cpp}\end{DoxyCompactItemize}

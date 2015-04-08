@@ -1,0 +1,70 @@
+#include "../inc/benchmark.h"
+#include <cstdlib>
+
+int main()
+{
+  int roz = 1000000;
+  clock_t czasA,czasB;
+  double t[10];
+  arr::Lista L,K;
+  int p=0;
+
+
+  
+
+
+  for(int j=0; j<10;++j)
+    {
+      
+      for(int i=roz; i>-1; i--)
+      	L.insert(i,-(i-roz));
+        
+      //L.show();
+      
+      czasA = clock();
+
+      L.sortuj(p,roz);
+      
+      czasB = clock();
+
+      t[j]= (double)(czasB-czasA)/CLOCKS_PER_SEC;
+      
+      for(int k=0; k<roz;++k)
+	L.erase(k);
+
+      std::cout << t[j] << std::endl;
+      //L.show();
+    }
+      
+
+
+  std::cout << std::endl;
+  std::cout << std::endl;
+  std::cout << std::endl;
+  std::cout << std::endl;
+
+  for(int j=0; j<10;++j)
+    {
+      
+      for(int i=roz; i>-1; i--)
+	K.insert(i,-(i-roz));
+            
+      //K.show();
+      
+      czasA = clock();
+      
+      K.sortuj_opt(p,roz);
+      
+      czasB = clock();
+     
+      t[j]= (double)(czasB-czasA)/CLOCKS_PER_SEC;
+      
+      for(int k=0; k<roz;++k)
+	K.erase(k);
+     
+      std::cout << t[j] << std::endl;
+      //K.show();
+    }
+  
+}
+

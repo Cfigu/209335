@@ -1,0 +1,278 @@
+\section{arr\-:\-:Lista Class Reference}
+\label{classarr_1_1_lista}\index{arr\-::\-Lista@{arr\-::\-Lista}}
+
+
+{\ttfamily \#include $<$lista\-\_\-arr.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Lista} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyślny klasy \doxyref{arr\-::\-Lista}{p.}{classarr_1_1_lista}. \end{DoxyCompactList}\item 
+{\bf Lista} (const {\bf Lista} \&lewy)
+\begin{DoxyCompactList}\small\item\em Konstruktor kopiujący klasy \doxyref{arr\-::\-Lista}{p.}{classarr_1_1_lista}. Bezużyteczny dla trzeciego zadania, ale na pewno kolega się ucieszy. \end{DoxyCompactList}\item 
+{\bf $\sim$\-Lista} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \doxyref{arr\-::\-Lista}{p.}{classarr_1_1_lista}. \end{DoxyCompactList}\item 
+int {\bf erase} (int)
+\begin{DoxyCompactList}\small\item\em Usuwa z listy element o wybranym indeksie. Zapisuje wartość przechowywaną pod danym indeksem a potem przesuwa całą zawartość tablicy młodszą od danego elementu o 1 w stronę starszych elementów. Zmniejsza licznik rozmiar\-\_\-ls o 1. Przykład 1\-: Wyrażenie obj.\-erase(0) usuwa najmłodszy element kontenera. Przykład 2\-: Wyrażenie obj.\-erase(obj.\-size() -\/ 1) usuwa najstarszy element. Przykład 3\-: Wyrażenie obj.\-erase(obj.\-size()) nie zmienia kontenera. \end{DoxyCompactList}\item 
+void {\bf insert} (int, int)
+\begin{DoxyCompactList}\small\item\em Umieszcza cegłę z wartością 'wartosc' w miejscu oddalonym o 'indeks' miejsc od początku kontenera. Zwiększa licznik rozmiar\-\_\-ls o 1, odsuwa wszystkie elementy młodsze od danego indeksu o 1 od starszych i umieszcza wartość w odpowiednim indeksie. Może powodować realokację zawartości listy! U\-W\-A\-G\-A\-: Indeks liczony jest od zera, od najmłodszej cegły. Przykład 1\-: Wyrażenie obj.\-insert(5,0) jest równoważne wyrażeniu obj.\-push(5) \end{DoxyCompactList}\item 
+bool {\bf empty} ()
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy lista jest pusta. \end{DoxyCompactList}\item 
+int {\bf size} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar listy. \end{DoxyCompactList}\item 
+int {\bf dziel} (int lewo, int prawo)
+\begin{DoxyCompactList}\small\item\em Dzieli liste na dwie czesci. \end{DoxyCompactList}\item 
+int {\bf dziel2} (int lewo, int prawo)
+\begin{DoxyCompactList}\small\item\em Dzieli liste na dwie czesci oraz dobier pivot porownujac 3 elementy listy -\/ pierwszy, srodkowy i ostatni. \end{DoxyCompactList}\item 
+void {\bf sortuj} (int lewo, int prawo)
+\begin{DoxyCompactList}\small\item\em Quick\-Sort -\/ Sortuje elementy listy od najmniejszego do największego. Wykorzystuje metode dziel. \end{DoxyCompactList}\item 
+void {\bf sortuj\-\_\-opt} (int lewo, int prawo)
+\begin{DoxyCompactList}\small\item\em Quick\-Sort(optymalizacja) -\/ Sortuje elementy listy od najmniejszego do największego. Wykorzystuje metode dziel2. \end{DoxyCompactList}\item 
+void {\bf operacja\-\_\-licz\-\_\-qs} (int roz)
+\begin{DoxyCompactList}\small\item\em Metoda oblicza czas posortowania listy o zadanej ilosci elementow. Powtarza ta operacje 10 razy i oblicza sredni czas sortowania. Wyswietla poszczegolny czas oraz czas sredni. Wykorzystuje metode sortuj. \end{DoxyCompactList}\item 
+void {\bf operacja\-\_\-licz\-\_\-qs\-\_\-opt} (int roz)
+\begin{DoxyCompactList}\small\item\em Metoda oblicza czas posortowania listy o zadanej ilosci elementow. Powtarza ta operacje 10 razy i oblicza sredni czas sortowania. Wyswietla poszczegolny czas oraz czas sredni. Wykorzystuje metode sortuj\-\_\-opt. \end{DoxyCompactList}\item 
+void {\bf show} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file lista\-\_\-arr.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{arr\-::\-Lista@{arr\-::\-Lista}!Lista@{Lista}}
+\index{Lista@{Lista}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{Lista}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Lista\-::\-Lista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classarr_1_1_lista_a11b61b647380e962aeeb35848c427b81}
+
+
+Konstruktor domyślny klasy \doxyref{arr\-::\-Lista}{p.}{classarr_1_1_lista}. 
+
+
+
+Definition at line 25 of file lista\-\_\-arr.\-h.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!Lista@{Lista}}
+\index{Lista@{Lista}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{Lista}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Lista\-::\-Lista (
+\begin{DoxyParamCaption}
+\item[{const {\bf Lista} \&}]{lewy}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_lista_a29bae0190a2d5c38ebfdf33eb05d1c09}
+
+
+Konstruktor kopiujący klasy \doxyref{arr\-::\-Lista}{p.}{classarr_1_1_lista}. Bezużyteczny dla trzeciego zadania, ale na pewno kolega się ucieszy. 
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!$\sim$\-Lista@{$\sim$\-Lista}}
+\index{$\sim$\-Lista@{$\sim$\-Lista}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{$\sim$\-Lista}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Lista\-::$\sim$\-Lista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classarr_1_1_lista_ac3b5f77b08befbf28e922179dcace594}
+
+
+Destruktor klasy \doxyref{arr\-::\-Lista}{p.}{classarr_1_1_lista}. 
+
+
+
+Definition at line 34 of file lista\-\_\-arr.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\index{arr\-::\-Lista@{arr\-::\-Lista}!dziel@{dziel}}
+\index{dziel@{dziel}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{dziel}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Lista\-::dziel (
+\begin{DoxyParamCaption}
+\item[{int}]{lewo, }
+\item[{int}]{prawo}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_lista_a26a9df3345815d473a199e7c1336658b}
+
+
+Dzieli liste na dwie czesci. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca punkt podzialu listy. 
+\end{DoxyReturn}
+
+
+Definition at line 72 of file lista\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!dziel2@{dziel2}}
+\index{dziel2@{dziel2}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{dziel2}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Lista\-::dziel2 (
+\begin{DoxyParamCaption}
+\item[{int}]{lewo, }
+\item[{int}]{prawo}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_lista_ab255a39afd310f21caf3de6781dcef7a}
+
+
+Dzieli liste na dwie czesci oraz dobier pivot porownujac 3 elementy listy -\/ pierwszy, srodkowy i ostatni. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca punkt podzialu listy. 
+\end{DoxyReturn}
+
+
+Definition at line 98 of file lista\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!empty@{empty}}
+\index{empty@{empty}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}bool arr\-::\-Lista\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_lista_a6eef5db974ccbb5f133a76d22b375ae9}
+
+
+Sprawdza, czy lista jest pusta. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca prawdę, jeżeli lista jest pusta. W przeciwnym razie zwraca false. 
+\end{DoxyReturn}
+
+
+Definition at line 3 of file lista\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!erase@{erase}}
+\index{erase@{erase}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{erase}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Lista\-::erase (
+\begin{DoxyParamCaption}
+\item[{int}]{indeks}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_lista_ad370aa7f4e6bf3f2492f5187c9d64d56}
+
+
+Usuwa z listy element o wybranym indeksie. Zapisuje wartość przechowywaną pod danym indeksem a potem przesuwa całą zawartość tablicy młodszą od danego elementu o 1 w stronę starszych elementów. Zmniejsza licznik rozmiar\-\_\-ls o 1. Przykład 1\-: Wyrażenie obj.\-erase(0) usuwa najmłodszy element kontenera. Przykład 2\-: Wyrażenie obj.\-erase(obj.\-size() -\/ 1) usuwa najstarszy element. Przykład 3\-: Wyrażenie obj.\-erase(obj.\-size()) nie zmienia kontenera. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartość przechowywaną w usuniętej cegiełce. 
+\end{DoxyReturn}
+
+
+Definition at line 8 of file lista\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!insert@{insert}}
+\index{insert@{insert}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Lista\-::insert (
+\begin{DoxyParamCaption}
+\item[{int}]{value, }
+\item[{int}]{indeks}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_lista_a57365c410ba6ac9d82eb4b4a83bc89bd}
+
+
+Umieszcza cegłę z wartością 'wartosc' w miejscu oddalonym o 'indeks' miejsc od początku kontenera. Zwiększa licznik rozmiar\-\_\-ls o 1, odsuwa wszystkie elementy młodsze od danego indeksu o 1 od starszych i umieszcza wartość w odpowiednim indeksie. Może powodować realokację zawartości listy! U\-W\-A\-G\-A\-: Indeks liczony jest od zera, od najmłodszej cegły. Przykład 1\-: Wyrażenie obj.\-insert(5,0) jest równoważne wyrażeniu obj.\-push(5) 
+
+
+\begin{DoxyItemize}
+\item element zawierający wartość 5 jest teraz najmłodszym elementem. Przykład 2\-: Wyrażenie obj.\-insert(3,obj.\-size()) czyni element zawierający wartosć 3 najstarszym elementem. 
+\end{DoxyItemize}
+
+Definition at line 18 of file lista\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!operacja\-\_\-licz\-\_\-qs@{operacja\-\_\-licz\-\_\-qs}}
+\index{operacja\-\_\-licz\-\_\-qs@{operacja\-\_\-licz\-\_\-qs}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{operacja\-\_\-licz\-\_\-qs}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Lista\-::operacja\-\_\-licz\-\_\-qs (
+\begin{DoxyParamCaption}
+\item[{int}]{roz}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_lista_a1de7c0e896407e0237718e30cabd5e25}
+
+
+Metoda oblicza czas posortowania listy o zadanej ilosci elementow. Powtarza ta operacje 10 razy i oblicza sredni czas sortowania. Wyswietla poszczegolny czas oraz czas sredni. Wykorzystuje metode sortuj. 
+
+
+
+Definition at line 165 of file lista\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!operacja\-\_\-licz\-\_\-qs\-\_\-opt@{operacja\-\_\-licz\-\_\-qs\-\_\-opt}}
+\index{operacja\-\_\-licz\-\_\-qs\-\_\-opt@{operacja\-\_\-licz\-\_\-qs\-\_\-opt}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{operacja\-\_\-licz\-\_\-qs\-\_\-opt}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Lista\-::operacja\-\_\-licz\-\_\-qs\-\_\-opt (
+\begin{DoxyParamCaption}
+\item[{int}]{roz}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_lista_a1ca9dc2b1e97879dd54e322e03bae9ec}
+
+
+Metoda oblicza czas posortowania listy o zadanej ilosci elementow. Powtarza ta operacje 10 razy i oblicza sredni czas sortowania. Wyswietla poszczegolny czas oraz czas sredni. Wykorzystuje metode sortuj\-\_\-opt. 
+
+
+
+Definition at line 199 of file lista\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!show@{show}}
+\index{show@{show}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{show}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Lista\-::show (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classarr_1_1_lista_a7995f1dfb1b2b1dc430498f20c6bcc7d}
+
+
+Definition at line 107 of file lista\-\_\-arr.\-h.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!size@{size}}
+\index{size@{size}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Lista\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classarr_1_1_lista_a853418a2061e80c83185f03f0e1568c6}
+
+
+Zwraca rozmiar listy. 
+
+
+
+Definition at line 75 of file lista\-\_\-arr.\-h.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!sortuj@{sortuj}}
+\index{sortuj@{sortuj}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{sortuj}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Lista\-::sortuj (
+\begin{DoxyParamCaption}
+\item[{int}]{lewo, }
+\item[{int}]{prawo}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_lista_adef9c9c82be06e406ba5305fabf31689}
+
+
+Quick\-Sort -\/ Sortuje elementy listy od najmniejszego do największego. Wykorzystuje metode dziel. 
+
+
+
+Definition at line 143 of file lista\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Lista@{arr\-::\-Lista}!sortuj\-\_\-opt@{sortuj\-\_\-opt}}
+\index{sortuj\-\_\-opt@{sortuj\-\_\-opt}!arr::Lista@{arr\-::\-Lista}}
+\subsubsection[{sortuj\-\_\-opt}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Lista\-::sortuj\-\_\-opt (
+\begin{DoxyParamCaption}
+\item[{int}]{lewo, }
+\item[{int}]{prawo}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_lista_a5dc55514faad46b0a2998bfe4b9e075c}
+
+
+Quick\-Sort(optymalizacja) -\/ Sortuje elementy listy od najmniejszego do największego. Wykorzystuje metode dziel2. 
+
+
+
+Definition at line 154 of file lista\-\_\-arr.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/damian/mkrawczuk/209147/lab03\-\_\-opt/prj/inc/{\bf lista\-\_\-arr.\-h}\item 
+/home/damian/mkrawczuk/209147/lab03\-\_\-opt/prj/src/{\bf lista\-\_\-arr.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,153 @@
+\section{arr\-:\-:Kolejka Class Reference}
+\label{classarr_1_1_kolejka}\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}}
+
+
+{\ttfamily \#include $<$kolejka\-\_\-arr.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Kolejka} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyślny klasy \doxyref{arr\-::\-Kolejka}{p.}{classarr_1_1_kolejka}. \end{DoxyCompactList}\item 
+{\bf Kolejka} (const {\bf Kolejka} \&lewy)
+\begin{DoxyCompactList}\small\item\em Konstruktor kopiujący klasy \doxyref{arr\-::\-Kolejka}{p.}{classarr_1_1_kolejka}. \end{DoxyCompactList}\item 
+{\bf $\sim$\-Kolejka} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \doxyref{arr\-::\-Kolejka}{p.}{classarr_1_1_kolejka}. \end{DoxyCompactList}\item 
+void {\bf push} (int val)
+\begin{DoxyCompactList}\small\item\em Wrzuca element na szczyt kolejki. \end{DoxyCompactList}\item 
+int {\bf pop} ()
+\begin{DoxyCompactList}\small\item\em Zdejmuje najstarszy element z kolejki. \end{DoxyCompactList}\item 
+bool {\bf empty} ()
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy kolejka jest pusta. \end{DoxyCompactList}\item 
+int {\bf size} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar kolejki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file kolejka\-\_\-arr.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!Kolejka@{Kolejka}}
+\index{Kolejka@{Kolejka}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{Kolejka}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Kolejka\-::\-Kolejka (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classarr_1_1_kolejka_a7f2d0e05c25b3a0d10db8e04cd4bdb58}
+
+
+Konstruktor domyślny klasy \doxyref{arr\-::\-Kolejka}{p.}{classarr_1_1_kolejka}. 
+
+
+
+Definition at line 26 of file kolejka\-\_\-arr.\-h.
+
+\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!Kolejka@{Kolejka}}
+\index{Kolejka@{Kolejka}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{Kolejka}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Kolejka\-::\-Kolejka (
+\begin{DoxyParamCaption}
+\item[{const {\bf Kolejka} \&}]{lewy}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_kolejka_a1addd7f5fdee63f093fd971037600b02}
+
+
+Konstruktor kopiujący klasy \doxyref{arr\-::\-Kolejka}{p.}{classarr_1_1_kolejka}. 
+
+Bezużyteczny dla trzeciego zadania, ale na pewno kolega się ucieszy. 
+
+Definition at line 3 of file kolejka\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!$\sim$\-Kolejka@{$\sim$\-Kolejka}}
+\index{$\sim$\-Kolejka@{$\sim$\-Kolejka}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{$\sim$\-Kolejka}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Kolejka\-::$\sim$\-Kolejka (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_kolejka_a455a5aac4ea9612cab749b8e9edf131d}
+
+
+Destruktor klasy \doxyref{arr\-::\-Kolejka}{p.}{classarr_1_1_kolejka}. 
+
+
+
+Definition at line 10 of file kolejka\-\_\-arr.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!empty@{empty}}
+\index{empty@{empty}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}bool arr\-::\-Kolejka\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_kolejka_a8ed4d617d36bf539544d1f7e18929bf8}
+
+
+Sprawdza, czy kolejka jest pusta. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca prawdę, jeżeli kolejka jest pusta. W przeciwnym razie zwraca false. 
+\end{DoxyReturn}
+
+
+Definition at line 44 of file kolejka\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!pop@{pop}}
+\index{pop@{pop}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Kolejka\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_kolejka_a9d2c0676d6992ffb3b2aa4cd27ca36af}
+
+
+Zdejmuje najstarszy element z kolejki. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca wartość przechowywaną w zdejmowanej cegiełce 
+\end{DoxyReturn}
+
+
+Definition at line 32 of file kolejka\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!push@{push}}
+\index{push@{push}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Kolejka\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_kolejka_acb08e887411da797ab39960cde892dc5}
+
+
+Wrzuca element na szczyt kolejki. 
+
+
+
+Definition at line 15 of file kolejka\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Kolejka@{arr\-::\-Kolejka}!size@{size}}
+\index{size@{size}!arr::Kolejka@{arr\-::\-Kolejka}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Kolejka\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classarr_1_1_kolejka_a1aabde2dffcb50f4d8dc2e7d6df808ce}
+
+
+Zwraca rozmiar kolejki. 
+
+
+
+Definition at line 56 of file kolejka\-\_\-arr.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/damian/mkrawczuk/209147/lab03\-\_\-opt/prj/inc/{\bf kolejka\-\_\-arr.\-h}\item 
+/home/damian/mkrawczuk/209147/lab03\-\_\-opt/prj/src/{\bf kolejka\-\_\-arr.\-cpp}\end{DoxyCompactItemize}

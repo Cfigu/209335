@@ -1,0 +1,150 @@
+\section{arr\-:\-:Stos Class Reference}
+\label{classarr_1_1_stos}\index{arr\-::\-Stos@{arr\-::\-Stos}}
+
+
+{\ttfamily \#include $<$stos\-\_\-arr.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Stos} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor domyślny klasy \doxyref{Stos}{p.}{classarr_1_1_stos}. \end{DoxyCompactList}\item 
+{\bf Stos} (const {\bf Stos} \&lewy)
+\begin{DoxyCompactList}\small\item\em Konstruktor kopiujący klasy \doxyref{Stos}{p.}{classarr_1_1_stos}. \end{DoxyCompactList}\item 
+{\bf $\sim$\-Stos} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \doxyref{Stos}{p.}{classarr_1_1_stos}. \end{DoxyCompactList}\item 
+void {\bf push} (int val)
+\begin{DoxyCompactList}\small\item\em Wrzuca element na szczyt stosu. \end{DoxyCompactList}\item 
+int {\bf pop} ()
+\begin{DoxyCompactList}\small\item\em Zdejmuje najmłodszy element ze stosu. \end{DoxyCompactList}\item 
+bool {\bf empty} ()
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy stos jest pusty. \end{DoxyCompactList}\item 
+int {\bf size} ()
+\begin{DoxyCompactList}\small\item\em Zwraca rozmiar stosu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file stos\-\_\-arr.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{arr\-::\-Stos@{arr\-::\-Stos}!Stos@{Stos}}
+\index{Stos@{Stos}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{Stos}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Stos\-::\-Stos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classarr_1_1_stos_acc173736bd233091fe1205c7b2ad08e3}
+
+
+Konstruktor domyślny klasy \doxyref{Stos}{p.}{classarr_1_1_stos}. 
+
+
+
+Definition at line 26 of file stos\-\_\-arr.\-h.
+
+\index{arr\-::\-Stos@{arr\-::\-Stos}!Stos@{Stos}}
+\index{Stos@{Stos}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{Stos}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Stos\-::\-Stos (
+\begin{DoxyParamCaption}
+\item[{const {\bf Stos} \&}]{lewy}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_stos_a3fa4c0909a0a8af714a7a41925c9bfc4}
+
+
+Konstruktor kopiujący klasy \doxyref{Stos}{p.}{classarr_1_1_stos}. 
+
+Bezużyteczny dla trzeciego zadania, ale na pewno kolega się ucieszy. 
+
+Definition at line 3 of file stos\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Stos@{arr\-::\-Stos}!$\sim$\-Stos@{$\sim$\-Stos}}
+\index{$\sim$\-Stos@{$\sim$\-Stos}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{$\sim$\-Stos}]{\setlength{\rightskip}{0pt plus 5cm}arr\-::\-Stos\-::$\sim$\-Stos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_stos_aab930de62382058082057237c0651c85}
+
+
+Destruktor klasy \doxyref{Stos}{p.}{classarr_1_1_stos}. 
+
+
+
+Definition at line 10 of file stos\-\_\-arr.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{arr\-::\-Stos@{arr\-::\-Stos}!empty@{empty}}
+\index{empty@{empty}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}bool arr\-::\-Stos\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_stos_aa65aee46af4fbfe791b7419d9e2dc2d1}
+
+
+Sprawdza, czy stos jest pusty. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca prawdę, jeżeli kolejka jest pusta. W przeciwnym razie zwraca false. 
+\end{DoxyReturn}
+
+
+Definition at line 38 of file stos\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Stos@{arr\-::\-Stos}!pop@{pop}}
+\index{pop@{pop}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Stos\-::pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_stos_a3d8fd4cebbcc8eb5aed6bfe15e1b86d8}
+
+
+Zdejmuje najmłodszy element ze stosu. 
+
+
+
+Definition at line 32 of file stos\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Stos@{arr\-::\-Stos}!push@{push}}
+\index{push@{push}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void arr\-::\-Stos\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}\label{classarr_1_1_stos_a818b45b7e1133cf8666a8996795823a6}
+
+
+Wrzuca element na szczyt stosu. 
+
+
+
+Definition at line 15 of file stos\-\_\-arr.\-cpp.
+
+\index{arr\-::\-Stos@{arr\-::\-Stos}!size@{size}}
+\index{size@{size}!arr::Stos@{arr\-::\-Stos}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int arr\-::\-Stos\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classarr_1_1_stos_a7f40cb3055b25794dfd484e6e8bd4822}
+
+
+Zwraca rozmiar stosu. 
+
+
+
+Definition at line 54 of file stos\-\_\-arr.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/damian/mkrawczuk/209147/lab03\-\_\-opt/prj/inc/{\bf stos\-\_\-arr.\-h}\item 
+/home/damian/mkrawczuk/209147/lab03\-\_\-opt/prj/src/{\bf stos\-\_\-arr.\-cpp}\end{DoxyCompactItemize}

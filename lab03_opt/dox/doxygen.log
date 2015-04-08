@@ -1,0 +1,154 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.13)  15 MAR 2015 11:22
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**latex/doxygen.sty
+(./latex/doxygen.sty
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `doxygen'.
+
+Package: doxygen 
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen102
+\extrarowheight=\dimen103
+\NC@list=\toks14
+\extratabsurround=\skip41
+\backup@length=\skip42
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count79
+\calc@Bcount=\count80
+\calc@Adimen=\dimen104
+\calc@Bdimen=\dimen105
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count81
+\calc@Cskip=\skip45
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count82
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count83
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks19
+\minrowclearance=\skip46
+)
+\rownum=\count84
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xtab/xtab.sty
+Package: xtab 2011/07/31 v2.3f Extended supertabular package
+\c@tracingst=\count85
+\PWSTcapht=\dimen106
+\ST@wd=\dimen107
+\ST@rightskip=\skip47
+\ST@leftskip=\skip48
+\ST@parfillskip=\skip49
+\c@PWSTtable=\count86
+\PWSTlastpage=\count87
+\PWSTpenultimate=\count88
+\PWSTcurpage=\count89
+\PWSTtempc=\count90
+\PWSTlines=\count91
+\PWST@lastht=\dimen108
+\PWST@generalht=\dimen109
+\PWST@ht=\dimen110
+\ST@pageleft=\dimen111
+\ST@headht=\dimen112
+\ST@tailht=\dimen113
+\ST@pagesofar=\dimen114
+\ST@pboxht=\dimen115
+\ST@lineht=\dimen116
+\ST@stretchht=\dimen117
+\ST@prevht=\dimen118
+\ST@toadd=\dimen119
+\ST@dimen=\dimen120
+\ST@pbox=\box28
+)
+\xrefbox=\box29
+\xreflength=\skip50
+\tmplength=\skip51
+)
+*
+(Please type a command or say `\end')
+*\end
+
+*
+! Interruption.
+<*> 
+    
+? 
+Runaway argument?
+! Paragraph ended before \end was complete.
+<to be read again> 
+                   \par 
+<*> 
+    
+? q
+OK, entering \batchmode...
+! Emergency stop.
+<*> 
+    
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 1406 strings out of 495028
+ 17837 string characters out of 6181497
+ 75361 words of memory out of 5000000
+ 4670 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 41i,0n,35p,225b,28s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

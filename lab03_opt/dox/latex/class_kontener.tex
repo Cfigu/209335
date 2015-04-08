@@ -1,0 +1,155 @@
+\hypertarget{class_kontener}{\section{Dokumentacja klasy Kontener}
+\label{class_kontener}\index{Kontener@{Kontener}}
+}
+
+
+{\ttfamily \#include $<$kontener.\-h$>$}
+
+Diagram dziedziczenia dla Kontener\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_kontener}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_kontener_acfd438daac27e2bce49e3996906fce04}{Kontener} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \hyperlink{class_kontener}{Kontener}. \end{DoxyCompactList}\item 
+void \hyperlink{class_kontener_a3809188c7de418862808c5b660df7ff0}{push} (int)
+\begin{DoxyCompactList}\small\item\em Wrzuca nową cegiełkę na początek kontenera. \end{DoxyCompactList}\item 
+void \hyperlink{class_kontener_a04b49ab497d6a3b0abca2d19089a7981}{insert} (int wartosc, int indeks)
+\begin{DoxyCompactList}\small\item\em Umieszcza cegłę z wartością 'wartosc' w miejscu oddalonym o 'indeks' miejsc od początku kontenera. \end{DoxyCompactList}\item 
+int \hyperlink{class_kontener_aa1874bdb5728ba2d4d23137733430249}{size} ()
+\begin{DoxyCompactList}\small\item\em Liczy z ilu cegiełek składa się kontener. \end{DoxyCompactList}\item 
+int \hyperlink{class_kontener_a20830cba10e97685c4dc13253a3cc2ff}{erase} (int)
+\begin{DoxyCompactList}\small\item\em Usuwa z listy element o wybranym indeksie. \end{DoxyCompactList}\item 
+int \hyperlink{class_kontener_a5b0fd99db2e568ff69fd46131b1bd236}{find} (int)
+\begin{DoxyCompactList}\small\item\em Odnajduje w kontenerze przekazaną w argumencie wartość. \end{DoxyCompactList}\item 
+void \hyperlink{class_kontener_a1c6af960f6471b9b69a0ec7ebcdc2863}{show} ()
+\begin{DoxyCompactList}\small\item\em Wypisuje elementy listy od najmłodszego zaczynając. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty chronione}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structcegla}{cegla} $\ast$ \hyperlink{class_kontener_aba3ad5cbdc83aa04b18b4237f6a16371}{alfa}
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+
+
+Definicja w linii 13 pliku kontener.\-h.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{class_kontener_acfd438daac27e2bce49e3996906fce04}{\index{Kontener@{Kontener}!Kontener@{Kontener}}
+\index{Kontener@{Kontener}!Kontener@{Kontener}}
+\subsubsection[{Kontener}]{\setlength{\rightskip}{0pt plus 5cm}Kontener\-::\-Kontener (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_kontener_acfd438daac27e2bce49e3996906fce04}
+Konstruktor klasy \hyperlink{class_kontener}{Kontener} inicjalizuje wskaźnik 'alfa' wartością N\-U\-L\-L. 
+
+Definicja w linii 25 pliku kontener.\-h.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{class_kontener_a20830cba10e97685c4dc13253a3cc2ff}{\index{Kontener@{Kontener}!erase@{erase}}
+\index{erase@{erase}!Kontener@{Kontener}}
+\subsubsection[{erase}]{\setlength{\rightskip}{0pt plus 5cm}int Kontener\-::erase (
+\begin{DoxyParamCaption}
+\item[{int}]{indeks}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a20830cba10e97685c4dc13253a3cc2ff}
+Zainicjalizowane są dwa wskaźniki na najmłodszą cegiełkę. Jeden jest ustawiany na element do usunięcia, drugi na element o jeden młodszy. Następuje roszada wskaźników\-: wskaźnik młodszej cegły wskazuje na cegłę starszą od usuwanej, zostaje zapisana wartość przechowywana przez usuwaną cegłę i wreszcie zwolniona zostaje pamięć zajmowana dotychczas przez cegłę. \begin{DoxyReturn}{Zwraca}
+Zwraca wartość przechowywaną w usuniętej cegiełce. 
+\end{DoxyReturn}
+
+
+Definicja w linii 58 pliku kontener.\-cpp.
+
+\hypertarget{class_kontener_a5b0fd99db2e568ff69fd46131b1bd236}{\index{Kontener@{Kontener}!find@{find}}
+\index{find@{find}!Kontener@{Kontener}}
+\subsubsection[{find}]{\setlength{\rightskip}{0pt plus 5cm}int Kontener\-::find (
+\begin{DoxyParamCaption}
+\item[{int}]{wartosc}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a5b0fd99db2e568ff69fd46131b1bd236}
+Powołany do życia jest szpieg -\/ wskaźnik na obiekt typu 'cegla', który przemierza kontener w poszukiwaniu najwcześniejszego wystąpienia poszukiwanej wartości. Operacji towarzyszy licznik, który śledzi ilość miniętych przez wskaźnik cegieł, którą metoda zwraca. Należy ją interpretować jako indeks cegły, gdzie najwcześniej wystąpiła poszukiwana wartość.
+
+\begin{DoxyReturn}{Zwraca}
+Zwraca indeks (liczony od 0 od najmłodszej cegiełki) najbliższego wystąpienia poszukiwanej wartości. 
+\end{DoxyReturn}
+
+
+Definicja w linii 91 pliku kontener.\-cpp.
+
+\hypertarget{class_kontener_a04b49ab497d6a3b0abca2d19089a7981}{\index{Kontener@{Kontener}!insert@{insert}}
+\index{insert@{insert}!Kontener@{Kontener}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}void Kontener\-::insert (
+\begin{DoxyParamCaption}
+\item[{int}]{wartosc, }
+\item[{int}]{indeks}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a04b49ab497d6a3b0abca2d19089a7981}
+U\-W\-A\-G\-A\-: Indeks liczony jest od zera, od najmłodszej cegły. 
+
+Definicja w linii 15 pliku kontener.\-cpp.
+
+\hypertarget{class_kontener_a3809188c7de418862808c5b660df7ff0}{\index{Kontener@{Kontener}!push@{push}}
+\index{push@{push}!Kontener@{Kontener}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void Kontener\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{wart}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a3809188c7de418862808c5b660df7ff0}
+
+
+Definicja w linii 7 pliku kontener.\-cpp.
+
+\hypertarget{class_kontener_a1c6af960f6471b9b69a0ec7ebcdc2863}{\index{Kontener@{Kontener}!show@{show}}
+\index{show@{show}!Kontener@{Kontener}}
+\subsubsection[{show}]{\setlength{\rightskip}{0pt plus 5cm}void Kontener\-::show (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a1c6af960f6471b9b69a0ec7ebcdc2863}
+
+
+Definicja w linii 108 pliku kontener.\-cpp.
+
+\hypertarget{class_kontener_aa1874bdb5728ba2d4d23137733430249}{\index{Kontener@{Kontener}!size@{size}}
+\index{size@{size}!Kontener@{Kontener}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int Kontener\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_aa1874bdb5728ba2d4d23137733430249}
+Zainicjalizowany zostaje wskaźnik na strukturę 'cegla' wskazujący na najmłodszą cegiełkę. Zostaje on potem wysłany w epicką podróż na sam koniec kontenera (czyli do napotkania N\-U\-L\-La). Towarzyszy mu licznik, który zlicza mijane po drodze cegiełki, których ilosć funkcja zwraca.
+
+\begin{DoxyReturn}{Zwraca}
+Zwraca wielkość kontenera. 
+\end{DoxyReturn}
+
+
+Definicja w linii 43 pliku kontener.\-cpp.
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{class_kontener_aba3ad5cbdc83aa04b18b4237f6a16371}{\index{Kontener@{Kontener}!alfa@{alfa}}
+\index{alfa@{alfa}!Kontener@{Kontener}}
+\subsubsection[{alfa}]{\setlength{\rightskip}{0pt plus 5cm}{\bf cegla}$\ast$ Kontener\-::alfa\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_kontener_aba3ad5cbdc83aa04b18b4237f6a16371}
+
+
+Definicja w linii 16 pliku kontener.\-h.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{kontener_8h}{kontener.\-h}\item 
+\hyperlink{kontener_8cpp}{kontener.\-cpp}\end{DoxyCompactItemize}
