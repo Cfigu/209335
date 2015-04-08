@@ -13,8 +13,8 @@ using namespace std;
 Ltab::Ltab()
 {
   ilosc=0;
-  max=0;
-  tab=NULL;
+  max=1;
+  tab=new int;
 }
 
 
@@ -48,15 +48,15 @@ void Ltab::add(const int& wart)
 
 void Ltab::addx2(const int& wart)
 {
-  if(max<ilosc)
+  if(max>ilosc)
     {
-      tab[max] = wart;
+      tab[ilosc] = wart;
     }
   else
     {
-      ilosc = ilosc*2;
-      int* pom = new int[ilosc];
-      for(int i=0; i<max; i++){
+      max = max*2;
+      int* pom = new int[max];
+      for(int i=0; i<ilosc; i++){
 	pom[i] = tab[i];
       }
 
@@ -64,9 +64,9 @@ void Ltab::addx2(const int& wart)
   
       tab = pom;
  
-      tab[max] = wart;
+      tab[ilosc] = wart;
     }
-  max++;
+  ++ilosc;
 }
 
 
