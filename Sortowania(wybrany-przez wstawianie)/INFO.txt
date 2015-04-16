@@ -1,0 +1,2 @@
+Opis złożoności napisanego algorytmu znajduje sie w komentarzu w pliku ListaAr.h
+Jest tam rowniez tabela czasów.
