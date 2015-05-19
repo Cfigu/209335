@@ -1,0 +1,19 @@
+#
+#  To sa opcje dla kompilacji
+#
+CPPFLAGS= -c -g -Iinc -Wall -pedantic
+
+__start__: BTREE
+	./BTREE
+
+BTREE: obj/main.o obj/BTree.o 
+	g++ -Wall -pedantic -o BTREE obj/main.o obj/BTree.o  
+
+obj/main.o: src/main.cpp
+	g++ ${CPPFLAGS} -o obj/main.o src/main.cpp
+
+obj/BTree.o: src/BTree.cpp inc/BTree.h
+	g++ ${CPPFLAGS} -o obj/BTree.o src/BTree.cpp
+
+clean:
+	rm -f obj/*.o BTREE

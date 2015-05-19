@@ -1,0 +1,21 @@
+#include "BTree.h"
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cout << "Podaj liczbe wezlow:  " << endl;
+  int n;                   // liczba węzłów
+  BTree * root;        // wskazanie korzenia drzewa
+           // łańcuchy do ramek
+
+  cin >> n;
+  
+  root = czytaj(n);            // odczytujemy drzewo
+  // wypisz("","",root); // wyświetlamy drzewo
+  usun(root);    // usuwamy drzewo z pamięci
+
+  return 0;
+} 
