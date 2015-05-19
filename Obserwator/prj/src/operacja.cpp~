@@ -1,0 +1,8 @@
+#include "operacja.h"
+
+Ltab operacja(Ltab A, int l, int p)
+{
+  A.sort_hybr(l,p);
+
+  return A;
+}

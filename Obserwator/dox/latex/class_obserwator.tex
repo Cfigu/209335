@@ -1,0 +1,175 @@
+\hypertarget{class_obserwator}{\section{Obserwator Class Reference}
+\label{class_obserwator}\index{Obserwator@{Obserwator}}
+}
+
+
+Definicja klasy \hyperlink{class_obserwator}{Obserwator}.  
+
+
+
+
+{\ttfamily \#include $<$Benchmark.\-h$>$}
+
+Inheritance diagram for Obserwator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_obserwator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_obserwator_a48222b9c0db0052494f5bdd165b613d1}{Obserwator} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \hyperlink{class_obserwator}{Obserwator}. \end{DoxyCompactList}\item 
+clock\-\_\-t \hyperlink{class_obserwator_a4b084319f11251eb6a43fda10635131b}{getczas1} ()
+\begin{DoxyCompactList}\small\item\em Metoda \hyperlink{class_obserwator_a4b084319f11251eb6a43fda10635131b}{getczas1()} \end{DoxyCompactList}\item 
+clock\-\_\-t \hyperlink{class_obserwator_acc32d6257452b53dad709a94708b3136}{getczas2} ()
+\begin{DoxyCompactList}\small\item\em Metoda \hyperlink{class_obserwator_acc32d6257452b53dad709a94708b3136}{getczas2()} \end{DoxyCompactList}\item 
+string \hyperlink{class_obserwator_a85b402505d94efaf77d955d997a7c921}{getinfo} ()
+\begin{DoxyCompactList}\small\item\em Metoda \hyperlink{class_obserwator_a85b402505d94efaf77d955d997a7c921}{getinfo()} \end{DoxyCompactList}\item 
+\hyperlink{class_ltab}{Ltab} \hyperlink{class_obserwator_a4f0d7830a5f9eeae6ef78967acfba0a3}{Benchmark} (\hyperlink{class_ltab}{Ltab} A, int l, int p)
+\begin{DoxyCompactList}\small\item\em Metoda Benchamark. \end{DoxyCompactList}\item 
+void \hyperlink{class_obserwator_a5067a980943c0706880d2dd080b88e61}{ustaw} (clock\-\_\-t c1, clock\-\_\-t c2, string i)
+\begin{DoxyCompactList}\small\item\em Metoda ustaw. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Definicja klasy \hyperlink{class_obserwator}{Obserwator}. 
+
+Prywatnie zawiera dwa czasy typu clock\-\_\-t oraz inforamcje typu string 
+
+Definition at line 102 of file Benchmark.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_obserwator_a48222b9c0db0052494f5bdd165b613d1}{\index{Obserwator@{Obserwator}!Obserwator@{Obserwator}}
+\index{Obserwator@{Obserwator}!Obserwator@{Obserwator}}
+\subsubsection[{Obserwator}]{\setlength{\rightskip}{0pt plus 5cm}Obserwator\-::\-Obserwator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_obserwator_a48222b9c0db0052494f5bdd165b613d1}
+
+
+Konstruktor klasy \hyperlink{class_obserwator}{Obserwator}. 
+
+
+
+Definition at line 12 of file Benchmark.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_obserwator_a4f0d7830a5f9eeae6ef78967acfba0a3}{\index{Obserwator@{Obserwator}!Benchmark@{Benchmark}}
+\index{Benchmark@{Benchmark}!Obserwator@{Obserwator}}
+\subsubsection[{Benchmark}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Ltab} Obserwator\-::\-Benchmark (
+\begin{DoxyParamCaption}
+\item[{{\bf Ltab}}]{A, }
+\item[{int}]{l, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)}}\label{class_obserwator_a4f0d7830a5f9eeae6ef78967acfba0a3}
+
+
+Metoda Benchamark. 
+
+Metoda sortuje liste typu \hyperlink{class_ltab}{Ltab} oraz przekazuje dane o do obserwatorow o wykonaniu sortowania oraz czasie poczatkowym i koncowym sortowania.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em A} & -\/ Lista na ktorej wykonwana jest zadana operacja z pliku \hyperlink{operacja_8cpp}{operacja.\-cpp} \\
+\hline
+\mbox{\tt in}  & {\em l} & i p -\/ l to poczatek listy a p to koniec \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 43 of file Benchmark.\-cpp.
+
+\hypertarget{class_obserwator_a4b084319f11251eb6a43fda10635131b}{\index{Obserwator@{Obserwator}!getczas1@{getczas1}}
+\index{getczas1@{getczas1}!Obserwator@{Obserwator}}
+\subsubsection[{getczas1}]{\setlength{\rightskip}{0pt plus 5cm}clock\-\_\-t Obserwator\-::getczas1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_obserwator_a4b084319f11251eb6a43fda10635131b}
+
+
+Metoda \hyperlink{class_obserwator_a4b084319f11251eb6a43fda10635131b}{getczas1()} 
+
+\begin{DoxyReturn}{Returns}
+Zwraca czas1 
+\end{DoxyReturn}
+
+
+Definition at line 20 of file Benchmark.\-cpp.
+
+\hypertarget{class_obserwator_acc32d6257452b53dad709a94708b3136}{\index{Obserwator@{Obserwator}!getczas2@{getczas2}}
+\index{getczas2@{getczas2}!Obserwator@{Obserwator}}
+\subsubsection[{getczas2}]{\setlength{\rightskip}{0pt plus 5cm}clock\-\_\-t Obserwator\-::getczas2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_obserwator_acc32d6257452b53dad709a94708b3136}
+
+
+Metoda \hyperlink{class_obserwator_acc32d6257452b53dad709a94708b3136}{getczas2()} 
+
+\begin{DoxyReturn}{Returns}
+Zwraca czas2 
+\end{DoxyReturn}
+
+
+Definition at line 25 of file Benchmark.\-cpp.
+
+\hypertarget{class_obserwator_a85b402505d94efaf77d955d997a7c921}{\index{Obserwator@{Obserwator}!getinfo@{getinfo}}
+\index{getinfo@{getinfo}!Obserwator@{Obserwator}}
+\subsubsection[{getinfo}]{\setlength{\rightskip}{0pt plus 5cm}string Obserwator\-::getinfo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_obserwator_a85b402505d94efaf77d955d997a7c921}
+
+
+Metoda \hyperlink{class_obserwator_a85b402505d94efaf77d955d997a7c921}{getinfo()} 
+
+\begin{DoxyReturn}{Returns}
+Zwraca info 
+\end{DoxyReturn}
+
+
+Definition at line 30 of file Benchmark.\-cpp.
+
+\hypertarget{class_obserwator_a5067a980943c0706880d2dd080b88e61}{\index{Obserwator@{Obserwator}!ustaw@{ustaw}}
+\index{ustaw@{ustaw}!Obserwator@{Obserwator}}
+\subsubsection[{ustaw}]{\setlength{\rightskip}{0pt plus 5cm}void Obserwator\-::ustaw (
+\begin{DoxyParamCaption}
+\item[{clock\-\_\-t}]{c1, }
+\item[{clock\-\_\-t}]{c2, }
+\item[{string}]{i}
+\end{DoxyParamCaption}
+)}}\label{class_obserwator_a5067a980943c0706880d2dd080b88e61}
+
+
+Metoda ustaw. 
+
+Metoda ustawia w czas1, czas2 oraz info
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em c1,c2} & -\/ c1 odpowiada czas1, a c2 odpowiada czas2 \\
+\hline
+\mbox{\tt in}  & {\em i} & -\/ odpowiada info \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 35 of file Benchmark.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/damian/prog/\-Obserwator/prj/inc/\hyperlink{_benchmark_8h}{Benchmark.\-h}\item 
+/home/damian/prog/\-Obserwator/prj/src/\hyperlink{_benchmark_8cpp}{Benchmark.\-cpp}\end{DoxyCompactItemize}
