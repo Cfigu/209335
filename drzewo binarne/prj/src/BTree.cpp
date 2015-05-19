@@ -50,31 +50,3 @@ void usun(BTree * A)
     delete A;             
   }
 }
-
-/*
-void wypisz(string sp, string sn, BTree * A)
-{
-  string s;
-
-  string cr,cl,cp;
-  cr[0] = 218; cr[1] = 196;
-  cl[0] = 192; cl[1] = 196;
-  cp[0] = 179;
-  
-
-  if(A)
-  {
-    s = sp;
-    if(sn == cr) s[s.length() - 2] = ' ';
-    wypisz(s + cp, cr, A->right);
-
-    s = s.substr(0,sp.length()-2);
-    cout << s << sn << A->data << endl;
-
-    s = sp;
-    if(sn == cl) s[s.length() - 2] = ' ';
-    wypisz(s + cp, cl, A->left);
-  }
-}
-
-*/
