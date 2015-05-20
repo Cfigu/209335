@@ -1,8 +1,0 @@
-#ifndef OPERACJA_H
-#define OPERACJA_H
-
-#include "ListaAr.h"
-
-void operacja(Ltab A, int l, int p);
-
-#endif
