@@ -1,0 +1,343 @@
+\hypertarget{class_r_b_tree}{\section{R\-B\-Tree Class Reference}
+\label{class_r_b_tree}\index{R\-B\-Tree@{R\-B\-Tree}}
+}
+
+
+Definicja klasy \hyperlink{class_r_b_tree}{R\-B\-Tree} czyli drzewa czerwono-\/czarnego.  
+
+
+
+
+{\ttfamily \#include $<$R\-B\-Tree.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_r_b_tree_a19921f34f32f777bb3c4b85d4ff1d9de}{R\-B\-Tree} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor drzewa. \end{DoxyCompactList}\item 
+\hyperlink{class_r_b_tree_abab51e54e07c1adf0ca0c9a5d466427b}{$\sim$\-R\-B\-Tree} ()
+\begin{DoxyCompactList}\small\item\em Destruktor drzewa. \end{DoxyCompactList}\item 
+void \hyperlink{class_r_b_tree_a1f4b6db4688c59667d2e64855a20e793}{usun} (\hyperlink{struct_r_b_t}{R\-B\-T} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Metoda usun. \end{DoxyCompactList}\item 
+void \hyperlink{class_r_b_tree_ac63299809d5769a670ced90f4dfe39d3}{pokaz} ()
+\begin{DoxyCompactList}\small\item\em Metoda pokaz. \end{DoxyCompactList}\item 
+\hyperlink{struct_r_b_t}{R\-B\-T} $\ast$ \hyperlink{class_r_b_tree_aa1a67f2d3a81cab01c8aae698540519a}{szukaj\-R\-B\-T} (int k)
+\begin{DoxyCompactList}\small\item\em Metoda szukaj\-R\-B\-T. \end{DoxyCompactList}\item 
+\hyperlink{struct_r_b_t}{R\-B\-T} $\ast$ \hyperlink{class_r_b_tree_ae397c204a0dd96afca3f914fd20ba52a}{min\-R\-B\-T} (\hyperlink{struct_r_b_t}{R\-B\-T} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Metoda min\-R\-B\-T. \end{DoxyCompactList}\item 
+\hyperlink{struct_r_b_t}{R\-B\-T} $\ast$ \hyperlink{class_r_b_tree_a29205faf915948214bc665cd1b7d677b}{nast\-R\-B\-T} (\hyperlink{struct_r_b_t}{R\-B\-T} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Metoda nast\-R\-B\-T. \end{DoxyCompactList}\item 
+void \hyperlink{class_r_b_tree_a9261b9851788e84fcc65bab5d7366e71}{obroc\-Lewo} (\hyperlink{struct_r_b_t}{R\-B\-T} $\ast$A)
+\begin{DoxyCompactList}\small\item\em Metoda obroc\-Lewo. \end{DoxyCompactList}\item 
+void \hyperlink{class_r_b_tree_aa75e696ec484d9e0e8a1691abbbf0690}{obroc\-Prawo} (\hyperlink{struct_r_b_t}{R\-B\-T} $\ast$A)
+\begin{DoxyCompactList}\small\item\em Metoda obroc\-Prawo. \end{DoxyCompactList}\item 
+void \hyperlink{class_r_b_tree_a80c610d8f07a6aba183711da6887be00}{wstaw\-R\-B\-T} (int k)
+\begin{DoxyCompactList}\small\item\em Metoda wstaw\-R\-B\-T. \end{DoxyCompactList}\item 
+void \hyperlink{class_r_b_tree_a88580c2202ca698a24a960a039846c14}{usun\-R\-B\-T} (\hyperlink{struct_r_b_t}{R\-B\-T} $\ast$X)
+\begin{DoxyCompactList}\small\item\em Metoda usun\-R\-B\-T. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Definicja klasy \hyperlink{class_r_b_tree}{R\-B\-Tree} czyli drzewa czerwono-\/czarnego. 
+
+Zawiera prywatnie\-: wezel straznika typu \hyperlink{struct_r_b_t}{R\-B\-T}, wskaznik na korzen drzewa,lancuchy do znakow ramek oraz metode wypisz powniewaz jest ona wykorzystywana bezposrednio w metodzie \hyperlink{class_r_b_tree_ac63299809d5769a670ced90f4dfe39d3}{pokaz()}. 
+
+Definition at line 46 of file R\-B\-Tree.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_r_b_tree_a19921f34f32f777bb3c4b85d4ff1d9de}{\index{R\-B\-Tree@{R\-B\-Tree}!R\-B\-Tree@{R\-B\-Tree}}
+\index{R\-B\-Tree@{R\-B\-Tree}!RBTree@{R\-B\-Tree}}
+\subsubsection[{R\-B\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}R\-B\-Tree\-::\-R\-B\-Tree (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_a19921f34f32f777bb3c4b85d4ff1d9de}
+
+
+Konstruktor drzewa. 
+
+Inicjuje straznika. Korzen wskazuje na straznika. Okresla jakie znaki beda tworzyc ramke. 
+
+Definition at line 13 of file R\-B\-Tree.\-cpp.
+
+\hypertarget{class_r_b_tree_abab51e54e07c1adf0ca0c9a5d466427b}{\index{R\-B\-Tree@{R\-B\-Tree}!$\sim$\-R\-B\-Tree@{$\sim$\-R\-B\-Tree}}
+\index{$\sim$\-R\-B\-Tree@{$\sim$\-R\-B\-Tree}!RBTree@{R\-B\-Tree}}
+\subsubsection[{$\sim$\-R\-B\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}R\-B\-Tree\-::$\sim$\-R\-B\-Tree (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_abab51e54e07c1adf0ca0c9a5d466427b}
+
+
+Destruktor drzewa. 
+
+Rekurencyjnie usuwa wezly 
+
+Definition at line 26 of file R\-B\-Tree.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_r_b_tree_ae397c204a0dd96afca3f914fd20ba52a}{\index{R\-B\-Tree@{R\-B\-Tree}!min\-R\-B\-T@{min\-R\-B\-T}}
+\index{min\-R\-B\-T@{min\-R\-B\-T}!RBTree@{R\-B\-Tree}}
+\subsubsection[{min\-R\-B\-T}]{\setlength{\rightskip}{0pt plus 5cm}{\bf R\-B\-T} $\ast$ R\-B\-Tree\-::min\-R\-B\-T (
+\begin{DoxyParamCaption}
+\item[{{\bf R\-B\-T} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_ae397c204a0dd96afca3f914fd20ba52a}
+
+
+Metoda min\-R\-B\-T. 
+
+Wyszukuje najmniejszy wezel w poddrzewie o korzeniu p
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em p} & -\/ wezel pod ktorym szukamy najmniejszego wezla\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na najmniejszy wezel 
+\end{DoxyReturn}
+
+
+Definition at line 90 of file R\-B\-Tree.\-cpp.
+
+\hypertarget{class_r_b_tree_a29205faf915948214bc665cd1b7d677b}{\index{R\-B\-Tree@{R\-B\-Tree}!nast\-R\-B\-T@{nast\-R\-B\-T}}
+\index{nast\-R\-B\-T@{nast\-R\-B\-T}!RBTree@{R\-B\-Tree}}
+\subsubsection[{nast\-R\-B\-T}]{\setlength{\rightskip}{0pt plus 5cm}{\bf R\-B\-T} $\ast$ R\-B\-Tree\-::nast\-R\-B\-T (
+\begin{DoxyParamCaption}
+\item[{{\bf R\-B\-T} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_a29205faf915948214bc665cd1b7d677b}
+
+
+Metoda nast\-R\-B\-T. 
+
+Wyszukuje wezel po wezle p
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em p} & -\/ wezel po ktorym szukamy kolejnego\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na wezel po wezle p 
+\end{DoxyReturn}
+
+
+Definition at line 100 of file R\-B\-Tree.\-cpp.
+
+\hypertarget{class_r_b_tree_a9261b9851788e84fcc65bab5d7366e71}{\index{R\-B\-Tree@{R\-B\-Tree}!obroc\-Lewo@{obroc\-Lewo}}
+\index{obroc\-Lewo@{obroc\-Lewo}!RBTree@{R\-B\-Tree}}
+\subsubsection[{obroc\-Lewo}]{\setlength{\rightskip}{0pt plus 5cm}void R\-B\-Tree\-::obroc\-Lewo (
+\begin{DoxyParamCaption}
+\item[{{\bf R\-B\-T} $\ast$}]{A}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_a9261b9851788e84fcc65bab5d7366e71}
+
+
+Metoda obroc\-Lewo. 
+
+Wykonuje rotacje w lewo wzgledem wezla A
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em A} & -\/ wezel wzgledem ktorego robiona jest rotacja \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 124 of file R\-B\-Tree.\-cpp.
+
+\hypertarget{class_r_b_tree_aa75e696ec484d9e0e8a1691abbbf0690}{\index{R\-B\-Tree@{R\-B\-Tree}!obroc\-Prawo@{obroc\-Prawo}}
+\index{obroc\-Prawo@{obroc\-Prawo}!RBTree@{R\-B\-Tree}}
+\subsubsection[{obroc\-Prawo}]{\setlength{\rightskip}{0pt plus 5cm}void R\-B\-Tree\-::obroc\-Prawo (
+\begin{DoxyParamCaption}
+\item[{{\bf R\-B\-T} $\ast$}]{A}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_aa75e696ec484d9e0e8a1691abbbf0690}
+
+
+Metoda obroc\-Prawo. 
+
+Wykonuje rotacje w prawo wzgledem wezla A
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em A} & -\/ wezel wzgledem ktorego robiona jest rotacja \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 152 of file R\-B\-Tree.\-cpp.
+
+\hypertarget{class_r_b_tree_ac63299809d5769a670ced90f4dfe39d3}{\index{R\-B\-Tree@{R\-B\-Tree}!pokaz@{pokaz}}
+\index{pokaz@{pokaz}!RBTree@{R\-B\-Tree}}
+\subsubsection[{pokaz}]{\setlength{\rightskip}{0pt plus 5cm}void R\-B\-Tree\-::pokaz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_ac63299809d5769a670ced90f4dfe39d3}
+
+
+Metoda pokaz. 
+
+Wypisuje drzewo na wyjsciu. Wykorzystuje metode wypisz z parametrami\-: sp=\char`\"{}\char`\"{} sn=\char`\"{}\char`\"{} p=korzen 
+
+Definition at line 65 of file R\-B\-Tree.\-cpp.
+
+\hypertarget{class_r_b_tree_aa1a67f2d3a81cab01c8aae698540519a}{\index{R\-B\-Tree@{R\-B\-Tree}!szukaj\-R\-B\-T@{szukaj\-R\-B\-T}}
+\index{szukaj\-R\-B\-T@{szukaj\-R\-B\-T}!RBTree@{R\-B\-Tree}}
+\subsubsection[{szukaj\-R\-B\-T}]{\setlength{\rightskip}{0pt plus 5cm}{\bf R\-B\-T} $\ast$ R\-B\-Tree\-::szukaj\-R\-B\-T (
+\begin{DoxyParamCaption}
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_aa1a67f2d3a81cab01c8aae698540519a}
+
+
+Metoda szukaj\-R\-B\-T. 
+
+Wyszukuje wezel wykorzystujac jego klucz
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em k} & -\/ klucz szukanego wezla\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wskaznik na wezel lub N\-U\-L\-L jesli wezel nie ostanie znaleziony 
+\end{DoxyReturn}
+
+
+Definition at line 71 of file R\-B\-Tree.\-cpp.
+
+\hypertarget{class_r_b_tree_a1f4b6db4688c59667d2e64855a20e793}{\index{R\-B\-Tree@{R\-B\-Tree}!usun@{usun}}
+\index{usun@{usun}!RBTree@{R\-B\-Tree}}
+\subsubsection[{usun}]{\setlength{\rightskip}{0pt plus 5cm}void R\-B\-Tree\-::usun (
+\begin{DoxyParamCaption}
+\item[{{\bf R\-B\-T} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_a1f4b6db4688c59667d2e64855a20e793}
+
+
+Metoda usun. 
+
+Usuwa po koleji poddrzewa(lewe i prawe) a potem sam wezel
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em p} & -\/ wskaznik na usuwany wezel i to co jest pod nim \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 31 of file R\-B\-Tree.\-cpp.
+
+\hypertarget{class_r_b_tree_a88580c2202ca698a24a960a039846c14}{\index{R\-B\-Tree@{R\-B\-Tree}!usun\-R\-B\-T@{usun\-R\-B\-T}}
+\index{usun\-R\-B\-T@{usun\-R\-B\-T}!RBTree@{R\-B\-Tree}}
+\subsubsection[{usun\-R\-B\-T}]{\setlength{\rightskip}{0pt plus 5cm}void R\-B\-Tree\-::usun\-R\-B\-T (
+\begin{DoxyParamCaption}
+\item[{{\bf R\-B\-T} $\ast$}]{X}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_a88580c2202ca698a24a960a039846c14}
+
+
+Metoda usun\-R\-B\-T. 
+
+Usuwa wybrany wezel
+
+Metoda rozpartuje 4 przypadki\-: \begin{DoxyVerb}Przypadek 1:
+Usuwany węzeł X nie posiada lewego syna (jest nim węzeł strażnik).
+Usuwamy z drzewa węzeł X, a na jego miejsce wstawiamy prawego syna Y.
+
+Przypadek 2:
+Usuwany węzeł X nie posiada prawego syna.
+Jest to przypadek symetryczny do przypadku 1. Usuwamy węzeł X, zastępując go lewym synem.
+Jeśli X był czarny, kolorujemy Y na czarno.
+
+Przypadek 3:
+Węzeł X posiada dwóch synów, z których prawy Z jest następnikiem.
+Węzeł X zastępujemy następnikiem. Lewym synem Z staje się węzeł Y. Następnik otrzymuje kolor węzła X.
+
+Przypadek 4:
+Węzeł X posiada dwóch synów, jednak następnik nie jest jego prawym synem.
+Następnik A zostaje zastąpiony w drzewie swoim prawym synem. Do węzła X kopiujemy zawartość następnika A bez pola koloru. 
+\end{DoxyVerb}
+
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em X} & -\/ wskaznik na usuwany wezel \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 270 of file R\-B\-Tree.\-cpp.
+
+\hypertarget{class_r_b_tree_a80c610d8f07a6aba183711da6887be00}{\index{R\-B\-Tree@{R\-B\-Tree}!wstaw\-R\-B\-T@{wstaw\-R\-B\-T}}
+\index{wstaw\-R\-B\-T@{wstaw\-R\-B\-T}!RBTree@{R\-B\-Tree}}
+\subsubsection[{wstaw\-R\-B\-T}]{\setlength{\rightskip}{0pt plus 5cm}void R\-B\-Tree\-::wstaw\-R\-B\-T (
+\begin{DoxyParamCaption}
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)}}\label{class_r_b_tree_a80c610d8f07a6aba183711da6887be00}
+
+
+Metoda wstaw\-R\-B\-T. 
+
+Wstawia wezel o kluczu k do drzewa \begin{DoxyVerb}B - black   R - red 
+\end{DoxyVerb}
+
+
+Rozpatruje 3 przypadki\-: \begin{DoxyVerb}Przypadek 1:
+
+    Wujek C (brat ojca B, czyli drugi syn węzła A) wstawionego węzła X jest czerwony.
+
+                        ........A(B)......
+                        B(R)......  C(R)
+                            X(R)
+\end{DoxyVerb}
+
+
+Ojca B i wujka C kolorujemy na czarno. Dziadka A kolorujemy na czerwono. Jeśli węzeł A jest korzeniem drzewa, to zmieniamy jego kolor na czarny i kończymy. W przeciwnym razie za nowe X przyjmujemy A i sprawdzamy od początku kolejne przypadki na $\ast$wyższym poziomie drzewa. \begin{DoxyVerb}Przypadek 2:
+
+    Wujek C jest czarny, a węzeł X jest prawym dzieckiem węzła B
+
+                        ........A(B).....
+                        B(R).....   C(B)
+                            X(R)
+\end{DoxyVerb}
+
+
+Wykonujemy rotację w lewo względem węzła B. Za X przyjmujemy węzeł B i przechodzimy do przypadku 3. \begin{DoxyVerb}Przypadek 3:
+
+    Wujek C jest czarny, a węzeł X jest lewym dzieckiem węzła B
+
+                        ........A(B).....
+                    ........B(R)        C(B)
+                    X(R)
+\end{DoxyVerb}
+
+
+Wykonujemy rotację w prawo względem węzła A. Zmieniamy kolory węzłów A i B na przeciwne. Operacja wstawiania zostaje zakończona, ponieważ $\ast$węzeł B ma taki sam kolor jak poprzednio węzeł A. Zatem operacja rotacji przywróciła strukturę drzewa czerwono-\/czarnego.
+
+Przypadki lustrzane sa rowniez rozpatrzone w metodzie.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em k} & -\/ klucz wstawianego wezla \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 181 of file R\-B\-Tree.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/damian/prog/drzewo czerwonoczarne/prj/inc/\hyperlink{_r_b_tree_8h}{R\-B\-Tree.\-h}\item 
+/home/damian/prog/drzewo czerwonoczarne/prj/src/\hyperlink{_r_b_tree_8cpp}{R\-B\-Tree.\-cpp}\end{DoxyCompactItemize}
