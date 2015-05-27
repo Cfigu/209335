@@ -1,0 +1,280 @@
+\section{Ltab Class Reference}
+\label{class_ltab}\index{Ltab@{Ltab}}
+
+
+Modeluje pojecie klasy \doxyref{Ltab}{p.}{class_ltab}.  
+
+
+
+
+{\ttfamily \#include $<$Lista\-Ar.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Ltab} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxyref{Ltab}{p.}{class_ltab}. \end{DoxyCompactList}\item 
+{\bf Ltab} (const {\bf Ltab} \&w)
+\begin{DoxyCompactList}\small\item\em Konstruktor kopjujacy klasy \doxyref{Ltab}{p.}{class_ltab}. \end{DoxyCompactList}\item 
+{\bf $\sim$\-Ltab} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \doxyref{Ltab}{p.}{class_ltab}. \end{DoxyCompactList}\item 
+int \& {\bf koniec} ()
+\item 
+int \& {\bf element} (int e)
+\item 
+int {\bf ile} ()
+\item 
+{\bf Ltab} \& {\bf operator=} (const {\bf Ltab} \&w)
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora = dla klasy \doxyref{Ltab}{p.}{class_ltab}. \end{DoxyCompactList}\item 
+int \& {\bf operator[$\,$]} (unsigned int index)
+\begin{DoxyCompactList}\small\item\em Przeciazenie operatora [] dla klasy \doxyref{Ltab}{p.}{class_ltab}. \end{DoxyCompactList}\item 
+void {\bf add} (const int \&wart)
+\begin{DoxyCompactList}\small\item\em Metoda klasy \doxyref{Ltab}{p.}{class_ltab} add. \end{DoxyCompactList}\item 
+void {\bf addx2} (const int \&wart)
+\begin{DoxyCompactList}\small\item\em Metoda klasy \doxyref{Ltab}{p.}{class_ltab} addx2. \end{DoxyCompactList}\item 
+void {\bf wypisz} ()
+\begin{DoxyCompactList}\small\item\em Metoda klasy \doxyref{Ltab}{p.}{class_ltab} wypisz. \end{DoxyCompactList}\item 
+void {\bf wypelnij\-\_\-posortowane} (const int roz)
+\begin{DoxyCompactList}\small\item\em Metoda klasy \doxyref{Ltab}{p.}{class_ltab} wypelnij\-\_\-posortowane. \end{DoxyCompactList}\item 
+void {\bf wypelnij\-\_\-odwrotnie} (const int roz)
+\begin{DoxyCompactList}\small\item\em Metoda klasy \doxyref{Ltab}{p.}{class_ltab} wypelnij\-\_\-odwrotnie. \end{DoxyCompactList}\item 
+void {\bf wypelnij\-\_\-losowymi} (const int roz)
+\begin{DoxyCompactList}\small\item\em Metoda klasy \doxyref{Ltab}{p.}{class_ltab} wypelnij\-\_\-losowymi. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Modeluje pojecie klasy \doxyref{Ltab}{p.}{class_ltab}. 
+
+Klasa \doxyref{Ltab}{p.}{class_ltab} zawiera prywatnie ilosc elementow w tablicy, maksynalna ilosc elementow w tablicy oraz element Publicznie zawieraz wszystkie metody, przeciazenia operatorow oraz konstruktor i destruktor. 
+
+Definition at line 22 of file Lista\-Ar.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Ltab@{Ltab}!Ltab@{Ltab}}
+\index{Ltab@{Ltab}!Ltab@{Ltab}}
+\subsubsection[{Ltab}]{\setlength{\rightskip}{0pt plus 5cm}Ltab\-::\-Ltab (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_ltab_ab6cfd85d06ae19d676c3057dcd119541}
+
+
+Konstruktor klasy \doxyref{Ltab}{p.}{class_ltab}. 
+
+Tworzy pusta klase \doxyref{Ltab}{p.}{class_ltab} 
+
+Definition at line 14 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!Ltab@{Ltab}}
+\index{Ltab@{Ltab}!Ltab@{Ltab}}
+\subsubsection[{Ltab}]{\setlength{\rightskip}{0pt plus 5cm}Ltab\-::\-Ltab (
+\begin{DoxyParamCaption}
+\item[{const {\bf Ltab} \&}]{w}
+\end{DoxyParamCaption}
+)}\label{class_ltab_a964bb07c6108ab0bcd31e4ae7d8ea35a}
+
+
+Konstruktor kopjujacy klasy \doxyref{Ltab}{p.}{class_ltab}. 
+
+Kopjuje cala list
+
+\begin{DoxyReturn}{Returns}
+Zwraca klase \doxyref{Ltab}{p.}{class_ltab} 
+\end{DoxyReturn}
+
+
+Definition at line 75 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!$\sim$\-Ltab@{$\sim$\-Ltab}}
+\index{$\sim$\-Ltab@{$\sim$\-Ltab}!Ltab@{Ltab}}
+\subsubsection[{$\sim$\-Ltab}]{\setlength{\rightskip}{0pt plus 5cm}Ltab\-::$\sim$\-Ltab (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_ltab_af01a96400af8f3988c8a2800ce0eae22}
+
+
+Destruktor klasy \doxyref{Ltab}{p.}{class_ltab}. 
+
+Kasuje cala klase 
+
+Definition at line 22 of file Lista\-Ar.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{Ltab@{Ltab}!add@{add}}
+\index{add@{add}!Ltab@{Ltab}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void Ltab\-::add (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{wart}
+\end{DoxyParamCaption}
+)}\label{class_ltab_a9d984316c3c88691e9ccfeaed884bfff}
+
+
+Metoda klasy \doxyref{Ltab}{p.}{class_ltab} add. 
+
+Dodaje element do listy zwiekszajac jej rozmiar o 1
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em wart} & -\/ taka bedzie wartosc dodanego elementu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 30 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!addx2@{addx2}}
+\index{addx2@{addx2}!Ltab@{Ltab}}
+\subsubsection[{addx2}]{\setlength{\rightskip}{0pt plus 5cm}void Ltab\-::addx2 (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{wart}
+\end{DoxyParamCaption}
+)}\label{class_ltab_ade764d08f90e2989bef67a652202f9f1}
+
+
+Metoda klasy \doxyref{Ltab}{p.}{class_ltab} addx2. 
+
+Dodaje element na szczyt listy jesli jest jeszcze miejsce w tablicy. Jesli nie to zwieksza rozmiar tablicy razy 2 a potem dodaje element
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em wart} & -\/ taka bedzie wartosc dodanego elementu \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 51 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!element@{element}}
+\index{element@{element}!Ltab@{Ltab}}
+\subsubsection[{element}]{\setlength{\rightskip}{0pt plus 5cm}int \& Ltab\-::element (
+\begin{DoxyParamCaption}
+\item[{int}]{e}
+\end{DoxyParamCaption}
+)}\label{class_ltab_a9f3a85a5a75555b1c0c5e345b6edf92b}
+
+
+Definition at line 108 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!ile@{ile}}
+\index{ile@{ile}!Ltab@{Ltab}}
+\subsubsection[{ile}]{\setlength{\rightskip}{0pt plus 5cm}int Ltab\-::ile (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_ltab_aa066d194880c2684a03b1738e2be51a1}
+
+
+Definition at line 118 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!koniec@{koniec}}
+\index{koniec@{koniec}!Ltab@{Ltab}}
+\subsubsection[{koniec}]{\setlength{\rightskip}{0pt plus 5cm}int \& Ltab\-::koniec (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_ltab_a30d9cfdbe6c0b96aa0e929c758149106}
+
+
+Definition at line 113 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!operator=@{operator=}}
+\index{operator=@{operator=}!Ltab@{Ltab}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Ltab} \& Ltab\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Ltab} \&}]{w}
+\end{DoxyParamCaption}
+)}\label{class_ltab_a174a5a31161a157d7724e560b99ad170}
+
+
+Przeciazenie operatora = dla klasy \doxyref{Ltab}{p.}{class_ltab}. 
+
+Przypisuje wartosci jednej listy do drugiej 
+
+Definition at line 92 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!operator[$\,$]@{operator[]}}
+\index{operator[$\,$]@{operator[]}!Ltab@{Ltab}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}int \& Ltab\-::operator[$\,$] (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{index}
+\end{DoxyParamCaption}
+)}\label{class_ltab_a3e6dae99d55dcaf9ead923a5588c3d57}
+
+
+Przeciazenie operatora [] dla klasy \doxyref{Ltab}{p.}{class_ltab}. 
+
+Pozwala na odwolanie sie do elementu tablicy 
+
+Definition at line 103 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!wypelnij\-\_\-losowymi@{wypelnij\-\_\-losowymi}}
+\index{wypelnij\-\_\-losowymi@{wypelnij\-\_\-losowymi}!Ltab@{Ltab}}
+\subsubsection[{wypelnij\-\_\-losowymi}]{\setlength{\rightskip}{0pt plus 5cm}void Ltab\-::wypelnij\-\_\-losowymi (
+\begin{DoxyParamCaption}
+\item[{const int}]{roz}
+\end{DoxyParamCaption}
+)}\label{class_ltab_abf1b11b9042a3298974e0298d205765d}
+
+
+Metoda klasy \doxyref{Ltab}{p.}{class_ltab} wypelnij\-\_\-losowymi. 
+
+Metoda wypelnia tablice losowymi elementami z zakresu od 0 do 999 
+
+Definition at line 123 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!wypelnij\-\_\-odwrotnie@{wypelnij\-\_\-odwrotnie}}
+\index{wypelnij\-\_\-odwrotnie@{wypelnij\-\_\-odwrotnie}!Ltab@{Ltab}}
+\subsubsection[{wypelnij\-\_\-odwrotnie}]{\setlength{\rightskip}{0pt plus 5cm}void Ltab\-::wypelnij\-\_\-odwrotnie (
+\begin{DoxyParamCaption}
+\item[{const int}]{roz}
+\end{DoxyParamCaption}
+)}\label{class_ltab_a59322be04cf860c890cce84cfcfc38be}
+
+
+Metoda klasy \doxyref{Ltab}{p.}{class_ltab} wypelnij\-\_\-odwrotnie. 
+
+Metoda wypelnia tablice elementami od roz do 1 
+
+Definition at line 134 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!wypelnij\-\_\-posortowane@{wypelnij\-\_\-posortowane}}
+\index{wypelnij\-\_\-posortowane@{wypelnij\-\_\-posortowane}!Ltab@{Ltab}}
+\subsubsection[{wypelnij\-\_\-posortowane}]{\setlength{\rightskip}{0pt plus 5cm}void Ltab\-::wypelnij\-\_\-posortowane (
+\begin{DoxyParamCaption}
+\item[{const int}]{roz}
+\end{DoxyParamCaption}
+)}\label{class_ltab_acaa2b96aa8b2e525157c859288ffd293}
+
+
+Metoda klasy \doxyref{Ltab}{p.}{class_ltab} wypelnij\-\_\-posortowane. 
+
+Metoda wypelnia tablice elementami od 1 do roz 
+
+Definition at line 146 of file Lista\-Ar.\-cpp.
+
+\index{Ltab@{Ltab}!wypisz@{wypisz}}
+\index{wypisz@{wypisz}!Ltab@{Ltab}}
+\subsubsection[{wypisz}]{\setlength{\rightskip}{0pt plus 5cm}void Ltab\-::wypisz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_ltab_a4b81c405bc3cf4b4510b0e879ec983b2}
+
+
+Metoda klasy \doxyref{Ltab}{p.}{class_ltab} wypisz. 
+
+Wyswietla cala zawartosc listy 
+
+Definition at line 85 of file Lista\-Ar.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/damian/prog/graf/prj/inc/{\bf Lista\-Ar.\-h}\item 
+/home/damian/prog/graf/prj/src/{\bf Lista\-Ar.\-cpp}\end{DoxyCompactItemize}

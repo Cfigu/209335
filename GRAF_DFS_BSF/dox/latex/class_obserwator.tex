@@ -1,0 +1,176 @@
+\section{Obserwator Class Reference}
+\label{class_obserwator}\index{Obserwator@{Obserwator}}
+
+
+Definicja klasy \doxyref{Obserwator}{p.}{class_obserwator}.  
+
+
+
+
+{\ttfamily \#include $<$Benchmark.\-h$>$}
+
+Inheritance diagram for Obserwator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_obserwator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Obserwator} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxyref{Obserwator}{p.}{class_obserwator}. \end{DoxyCompactList}\item 
+clock\-\_\-t {\bf getczas1} ()
+\begin{DoxyCompactList}\small\item\em Metoda \doxyref{getczas1()}{p.}{class_obserwator_a4b084319f11251eb6a43fda10635131b} \end{DoxyCompactList}\item 
+clock\-\_\-t {\bf getczas2} ()
+\begin{DoxyCompactList}\small\item\em Metoda \doxyref{getczas2()}{p.}{class_obserwator_acc32d6257452b53dad709a94708b3136} \end{DoxyCompactList}\item 
+string {\bf getinfo} ()
+\begin{DoxyCompactList}\small\item\em Metoda \doxyref{getinfo()}{p.}{class_obserwator_a85b402505d94efaf77d955d997a7c921} \end{DoxyCompactList}\item 
+void {\bf Benchmark} ({\bf Graf} A, int poczatek, int opcja)
+\begin{DoxyCompactList}\small\item\em Metoda Benchamark. \end{DoxyCompactList}\item 
+void {\bf ustaw} (clock\-\_\-t c1, clock\-\_\-t c2, string i)
+\begin{DoxyCompactList}\small\item\em Metoda ustaw. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Definicja klasy \doxyref{Obserwator}{p.}{class_obserwator}. 
+
+Prywatnie zawiera dwa czasy typu clock\-\_\-t oraz inforamcje typu string 
+
+Definition at line 103 of file Benchmark.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Obserwator@{Obserwator}!Obserwator@{Obserwator}}
+\index{Obserwator@{Obserwator}!Obserwator@{Obserwator}}
+\subsubsection[{Obserwator}]{\setlength{\rightskip}{0pt plus 5cm}Obserwator\-::\-Obserwator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_obserwator_a48222b9c0db0052494f5bdd165b613d1}
+
+
+Konstruktor klasy \doxyref{Obserwator}{p.}{class_obserwator}. 
+
+
+
+Definition at line 12 of file Benchmark.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{Obserwator@{Obserwator}!Benchmark@{Benchmark}}
+\index{Benchmark@{Benchmark}!Obserwator@{Obserwator}}
+\subsubsection[{Benchmark}]{\setlength{\rightskip}{0pt plus 5cm}void Obserwator\-::\-Benchmark (
+\begin{DoxyParamCaption}
+\item[{{\bf Graf}}]{A, }
+\item[{int}]{poczatek, }
+\item[{int}]{opcja}
+\end{DoxyParamCaption}
+)}\label{class_obserwator_a2e352efd2ab83fd46e00a03dae516e4f}
+
+
+Metoda Benchamark. 
+
+Metoda przechodzi zadany graf algortymem D\-F\-S lub B\-S\-F w zaleznosci od parametru opcja
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em A} & -\/ Garf na ktorym wykonwana jest zadana operacja z pliku \doxyref{operacja.\-cpp}{p.}{operacja_8cpp} \\
+\hline
+\mbox{\tt in}  & {\em poczatek} & -\/ poczatek grafu z ktorego znaczyamy przechodzenie \\
+\hline
+\mbox{\tt in}  & {\em opcja} & -\/ =1 jesli chcemy algorytm D\-F\-S lub =2 jesli chcemy algorytm B\-S\-F \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 43 of file Benchmark.\-cpp.
+
+\index{Obserwator@{Obserwator}!getczas1@{getczas1}}
+\index{getczas1@{getczas1}!Obserwator@{Obserwator}}
+\subsubsection[{getczas1}]{\setlength{\rightskip}{0pt plus 5cm}clock\-\_\-t Obserwator\-::getczas1 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_obserwator_a4b084319f11251eb6a43fda10635131b}
+
+
+Metoda \doxyref{getczas1()}{p.}{class_obserwator_a4b084319f11251eb6a43fda10635131b} 
+
+\begin{DoxyReturn}{Returns}
+Zwraca czas1 
+\end{DoxyReturn}
+
+
+Definition at line 20 of file Benchmark.\-cpp.
+
+\index{Obserwator@{Obserwator}!getczas2@{getczas2}}
+\index{getczas2@{getczas2}!Obserwator@{Obserwator}}
+\subsubsection[{getczas2}]{\setlength{\rightskip}{0pt plus 5cm}clock\-\_\-t Obserwator\-::getczas2 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_obserwator_acc32d6257452b53dad709a94708b3136}
+
+
+Metoda \doxyref{getczas2()}{p.}{class_obserwator_acc32d6257452b53dad709a94708b3136} 
+
+\begin{DoxyReturn}{Returns}
+Zwraca czas2 
+\end{DoxyReturn}
+
+
+Definition at line 25 of file Benchmark.\-cpp.
+
+\index{Obserwator@{Obserwator}!getinfo@{getinfo}}
+\index{getinfo@{getinfo}!Obserwator@{Obserwator}}
+\subsubsection[{getinfo}]{\setlength{\rightskip}{0pt plus 5cm}string Obserwator\-::getinfo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_obserwator_a85b402505d94efaf77d955d997a7c921}
+
+
+Metoda \doxyref{getinfo()}{p.}{class_obserwator_a85b402505d94efaf77d955d997a7c921} 
+
+\begin{DoxyReturn}{Returns}
+Zwraca info 
+\end{DoxyReturn}
+
+
+Definition at line 30 of file Benchmark.\-cpp.
+
+\index{Obserwator@{Obserwator}!ustaw@{ustaw}}
+\index{ustaw@{ustaw}!Obserwator@{Obserwator}}
+\subsubsection[{ustaw}]{\setlength{\rightskip}{0pt plus 5cm}void Obserwator\-::ustaw (
+\begin{DoxyParamCaption}
+\item[{clock\-\_\-t}]{c1, }
+\item[{clock\-\_\-t}]{c2, }
+\item[{string}]{i}
+\end{DoxyParamCaption}
+)}\label{class_obserwator_a5067a980943c0706880d2dd080b88e61}
+
+
+Metoda ustaw. 
+
+Metoda ustawia w czas1, czas2 oraz info
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em c1,c2} & -\/ c1 odpowiada czas1, a c2 odpowiada czas2 \\
+\hline
+\mbox{\tt in}  & {\em i} & -\/ odpowiada info \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 35 of file Benchmark.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/damian/prog/graf/prj/inc/{\bf Benchmark.\-h}\item 
+/home/damian/prog/graf/prj/src/{\bf Benchmark.\-cpp}\end{DoxyCompactItemize}

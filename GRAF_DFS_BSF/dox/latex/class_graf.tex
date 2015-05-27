@@ -1,0 +1,146 @@
+\section{Graf Class Reference}
+\label{class_graf}\index{Graf@{Graf}}
+
+
+Deklaracja klasy \doxyref{Graf}{p.}{class_graf}.  
+
+
+
+
+{\ttfamily \#include $<$graff.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Graf} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy Garf. \end{DoxyCompactList}\item 
+void {\bf stworz} (int v, int e)
+\begin{DoxyCompactList}\small\item\em Metoda stworz. \end{DoxyCompactList}\item 
+void {\bf stworz\-\_\-rand} (int w, int e)
+\begin{DoxyCompactList}\small\item\em Metoda stworz\-\_\-rand. \end{DoxyCompactList}\item 
+void {\bf D\-F\-S} (int p)
+\begin{DoxyCompactList}\small\item\em Metoda D\-F\-S. \end{DoxyCompactList}\item 
+void {\bf B\-S\-F} (int p)
+\begin{DoxyCompactList}\small\item\em Metoda B\-S\-F. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Deklaracja klasy \doxyref{Graf}{p.}{class_graf}. 
+
+Prywatnie zawiera ilosc wierzcholkow v oraz tablice list typu \doxyref{Ltab}{p.}{class_ltab} 
+
+Definition at line 25 of file graff.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Graf@{Graf}!Graf@{Graf}}
+\index{Graf@{Graf}!Graf@{Graf}}
+\subsubsection[{Graf}]{\setlength{\rightskip}{0pt plus 5cm}Graf\-::\-Graf (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_graf_a05a504069321858769df57555045d808}
+
+
+Konstruktor klasy Garf. 
+
+Tworzy dynamicznie nowa tablice list oraz ustawia v na 0 
+
+Definition at line 5 of file graff.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{Graf@{Graf}!B\-S\-F@{B\-S\-F}}
+\index{B\-S\-F@{B\-S\-F}!Graf@{Graf}}
+\subsubsection[{B\-S\-F}]{\setlength{\rightskip}{0pt plus 5cm}void Graf\-::\-B\-S\-F (
+\begin{DoxyParamCaption}
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)}\label{class_graf_a43f7ca132f60842bfd2969c2f4c30145}
+
+
+Metoda B\-S\-F. 
+
+Przechodzi graf w szerz algorytmem B\-S\-F 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em p} & -\/ wierzcholek startowy \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 105 of file graff.\-cpp.
+
+\index{Graf@{Graf}!D\-F\-S@{D\-F\-S}}
+\index{D\-F\-S@{D\-F\-S}!Graf@{Graf}}
+\subsubsection[{D\-F\-S}]{\setlength{\rightskip}{0pt plus 5cm}void Graf\-::\-D\-F\-S (
+\begin{DoxyParamCaption}
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)}\label{class_graf_a63b0b37eae6e5706b2e1359eaf5bae8f}
+
+
+Metoda D\-F\-S. 
+
+Przechodzi graf w glab algorytmem D\-F\-S 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em p} & -\/ wierzcholek startowy \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 67 of file graff.\-cpp.
+
+\index{Graf@{Graf}!stworz@{stworz}}
+\index{stworz@{stworz}!Graf@{Graf}}
+\subsubsection[{stworz}]{\setlength{\rightskip}{0pt plus 5cm}void Graf\-::stworz (
+\begin{DoxyParamCaption}
+\item[{int}]{v, }
+\item[{int}]{e}
+\end{DoxyParamCaption}
+)}\label{class_graf_a302e3999e36fe98408ebf4516e2aadf8}
+
+
+Metoda stworz. 
+
+Wypelnia graf zadanymi warotsciami. Nalezy podac ilosc wierzcholkow i krawedzi jako parametry metody. W zaleznosci od ilosci krawedzi tyle razy jest sie proszonym o podanie dwoch liczby w nastepujacy sposob 3 7 Co oznacza krawedz od wierzcholka 3 do 7(7 3 oznacza to samo bo jest to graf nieskierowany) 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em v} & -\/ ilosc wierzcholkow \\
+\hline
+\mbox{\tt in}  & {\em e} & -\/ ilosc krawedzi \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 11 of file graff.\-cpp.
+
+\index{Graf@{Graf}!stworz\-\_\-rand@{stworz\-\_\-rand}}
+\index{stworz\-\_\-rand@{stworz\-\_\-rand}!Graf@{Graf}}
+\subsubsection[{stworz\-\_\-rand}]{\setlength{\rightskip}{0pt plus 5cm}void Graf\-::stworz\-\_\-rand (
+\begin{DoxyParamCaption}
+\item[{int}]{w, }
+\item[{int}]{e}
+\end{DoxyParamCaption}
+)}\label{class_graf_aa830ea6dc74d96bbb1188596bbfeecaa}
+
+
+Metoda stworz\-\_\-rand. 
+
+Wypelnia graf losowymi polaczeniami 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em v} & -\/ ilosc wierzcholkow \\
+\hline
+\mbox{\tt in}  & {\em e} & -\/ ilosc krawedzi \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file graff.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/damian/prog/graf/prj/inc/{\bf graff.\-h}\item 
+/home/damian/prog/graf/prj/src/{\bf graff.\-cpp}\end{DoxyCompactItemize}
